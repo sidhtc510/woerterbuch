@@ -8,12 +8,10 @@
   box-sizing: border-box;
 }
 
-
-
-.singular,
+/* .singular,
 .plural {
   margin-top: 10px;
-}
+} */
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
