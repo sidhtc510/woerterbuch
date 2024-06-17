@@ -6,7 +6,7 @@ export async function GET() {
     try {
         await connectMongoDB();
         const words = await Words.findOne();
-        // console.log('words from route', words);
+        // console.log('words from route', words[0]);
         return NextResponse.json(words);
     } catch (error) {
         console.error('Error fetching words:', error);
