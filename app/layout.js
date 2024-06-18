@@ -5,15 +5,17 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "***",
+  title: "Wörterbuch",
   description: "***",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <SearchBar />
+      <body className={inter.className}>
+        {children}
+        <SearchBar />
+      </body>
     </html>
   );
 }
