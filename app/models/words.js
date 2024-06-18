@@ -12,6 +12,7 @@ const CaseSchema = new Schema({
 // Определение схемы для слов
 const WordSchema = new Schema({
   word: { type: String, required: true },
+  wordRu: { type: String, required: true },
   singular: {
     type: CaseSchema,
     required: true
@@ -50,7 +51,7 @@ const AlphabetSchema = new Schema({
   X: [WordSchema],
   Y: [WordSchema],
   Z: [WordSchema]
-}, { minimize: false}); // minimize: false чтобы не удалять пустые объекты, strict: false чтобы позволить любые поля
+}, { minimize: false }); // minimize: false чтобы не удалять пустые объекты, strict: false чтобы позволить любые поля
 
 // Создание модели
 const Words = mongoose.models.words || mongoose.model('words', AlphabetSchema);
