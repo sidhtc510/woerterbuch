@@ -2,7 +2,6 @@
 'use client';
 
 import { useState } from 'react';
-// import WordModal from '../components/WordModal';
 
 export default function WordModal({ wordObj }) {
     const [isModalOpen, setModalOpen] = useState(false);
@@ -22,7 +21,7 @@ export default function WordModal({ wordObj }) {
             </div>
 
             {isModalOpen && (
-                <div className="fixed inset-0 z-20 overflow-auto flex overlayClass" onClick={handleCloseModal}>
+                <div className={`bg-indigo-900 bg-opacity-40 backdrop-blur-sm fixed inset-0 z-20 overflow-auto flex`} onClick={handleCloseModal}>
                     <div className="bg-indigo-600 m-auto border border-indigo-800 w-5/5 rounded-lg shadow"> {/* my-16 p-5 */}
                         <h2 className='text-xl p-5'>{`${wordObj.word} (${wordObj.wordRu})`}</h2>
                         {/* <table className='table-auto border border-slate-400 border-separate border-spacing-2'> */}
