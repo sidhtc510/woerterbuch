@@ -1,7 +1,7 @@
 import React from 'react';
-import { loadWords } from "./fetches"
+import { loadWords } from "./fetches";
 import WordModal from './components/WordModal';
-import ModalClient from './components/ModalClient';
+
 
 
 const MainWord = ({ letter, words }) => (
@@ -11,7 +11,7 @@ const MainWord = ({ letter, words }) => (
       {words.map((wordObj, index) => (
         <div key={index} className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer">
           {/* <ModalClient />{`${wordObj.word} ( ${wordObj?.wordRu})`} </ModalClient> */}
-          <ModalClient wordObj={wordObj} />
+          <WordModal wordObj={wordObj} />
           {/* <div className="singular">
           <h4>Singular</h4>
           <p>Nominativ: {wordObj.singular.nominativ}</p>
