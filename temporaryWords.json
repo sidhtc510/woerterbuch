@@ -1,0 +1,2280 @@
+{
+    "_id": {
+        "$oid": "667038d48670a7bf274188e4"
+    },
+    "A": [
+        {
+            "word": "Apfel",
+            "wordRu": "яблоко",
+            "singular": {
+                "nominativ": "der Apfel",
+                "genitiv": "des Apfels",
+                "dativ": "dem Apfel",
+                "akkusativ": "den Apfel"
+            },
+            "plural": {
+                "nominativ": "die Äpfel",
+                "genitiv": "der Äpfel",
+                "dativ": "den Äpfeln",
+                "akkusativ": "die Äpfel"
+            }
+        },
+        {
+            "word": "Auto",
+            "wordRu": "автомобиль",
+            "singular": {
+                "nominativ": "das Auto",
+                "genitiv": "des Autos",
+                "dativ": "dem Auto",
+                "akkusativ": "das Auto"
+            },
+            "plural": {
+                "nominativ": "die Autos",
+                "genitiv": "der Autos",
+                "dativ": "den Autos",
+                "akkusativ": "die Autos"
+            }
+        },
+        {
+            "word": "Arm",
+            "wordRu": "рука",
+            "singular": {
+                "nominativ": "der Arm",
+                "genitiv": "des Arms",
+                "dativ": "dem Arm",
+                "akkusativ": "den Arm"
+            },
+            "plural": {
+                "nominativ": "die Arme",
+                "genitiv": "der Arme",
+                "dativ": "den Armen",
+                "akkusativ": "die Arme"
+            }
+        },
+        {
+            "word": "Ananas",
+            "wordRu": "ананас",
+            "singular": {
+                "nominativ": "die Ananas",
+                "genitiv": "der Ananas",
+                "dativ": "der Ananas",
+                "akkusativ": "die Ananas"
+            },
+            "plural": {
+                "nominativ": "die Ananas",
+                "genitiv": "der Ananas",
+                "dativ": "den Ananas",
+                "akkusativ": "die Ananas"
+            }
+        },
+        {
+            "word": "Auge",
+            "wordRu": "глаз",
+            "singular": {
+                "nominativ": "das Auge",
+                "genitiv": "des Auges",
+                "dativ": "dem Auge",
+                "akkusativ": "das Auge"
+            },
+            "plural": {
+                "nominativ": "die Augen",
+                "genitiv": "der Augen",
+                "dativ": "den Augen",
+                "akkusativ": "die Augen"
+            }
+        },
+        {
+            "word": "Adresse",
+            "wordRu": "адрес",
+            "singular": {
+                "nominativ": "die Adresse",
+                "genitiv": "der Adresse",
+                "dativ": "der Adresse",
+                "akkusativ": "die Adresse"
+            },
+            "plural": {
+                "nominativ": "die Adressen",
+                "genitiv": "der Adressen",
+                "dativ": "den Adressen",
+                "akkusativ": "die Adressen"
+            }
+        },
+        {
+            "word": "Abend",
+            "wordRu": "вечер",
+            "singular": {
+                "nominativ": "der Abend",
+                "genitiv": "des Abends",
+                "dativ": "dem Abend",
+                "akkusativ": "den Abend"
+            },
+            "plural": {
+                "nominativ": "die Abende",
+                "genitiv": "der Abende",
+                "dativ": "den Abenden",
+                "akkusativ": "die Abende"
+            }
+        },
+        {
+            "word": "Arzt",
+            "wordRu": "врач",
+            "singular": {
+                "nominativ": "der Arzt",
+                "genitiv": "des Arztes",
+                "dativ": "dem Arzt",
+                "akkusativ": "den Arzt"
+            },
+            "plural": {
+                "nominativ": "die Ärzte",
+                "genitiv": "der Ärzte",
+                "dativ": "den Ärzten",
+                "akkusativ": "die Ärzte"
+            }
+        },
+        {
+            "word": "Apotheke",
+            "wordRu": "аптека",
+            "singular": {
+                "nominativ": "die Apotheke",
+                "genitiv": "der Apotheke",
+                "dativ": "der Apotheke",
+                "akkusativ": "die Apotheke"
+            },
+            "plural": {
+                "nominativ": "die Apotheken",
+                "genitiv": "der Apotheken",
+                "dativ": "den Apotheken",
+                "akkusativ": "die Apotheken"
+            }
+        },
+        {
+            "word": "Aufzug",
+            "wordRu": "лифт",
+            "singular": {
+                "nominativ": "der Aufzug",
+                "genitiv": "des Aufzugs",
+                "dativ": "dem Aufzug",
+                "akkusativ": "den Aufzug"
+            },
+            "plural": {
+                "nominativ": "die Aufzüge",
+                "genitiv": "der Aufzüge",
+                "dativ": "den Aufzügen",
+                "akkusativ": "die Aufzüge"
+            }
+        },
+        {
+            "word": "Aufgabe",
+            "wordRu": "задача",
+            "singular": {
+                "nominativ": "die Aufgabe",
+                "genitiv": "der Aufgabe",
+                "dativ": "der Aufgabe",
+                "akkusativ": "die Aufgabe"
+            },
+            "plural": {
+                "nominativ": "die Aufgaben",
+                "genitiv": "der Aufgaben",
+                "dativ": "den Aufgaben",
+                "akkusativ": "die Aufgaben"
+            }
+        }
+    ],
+    "B": [
+        {
+            "word": "Banane",
+            "wordRu": "банан",
+            "singular": {
+                "nominativ": "die Banane",
+                "genitiv": "der Banane",
+                "dativ": "der Banane",
+                "akkusativ": "die Banane"
+            },
+            "plural": {
+                "nominativ": "die Bananen",
+                "genitiv": "der Bananen",
+                "dativ": "den Bananen",
+                "akkusativ": "die Bananen"
+            }
+        },
+        {
+            "word": "Baum",
+            "wordRu": "дерево",
+            "singular": {
+                "nominativ": "der Baum",
+                "genitiv": "des Baums oder des Baumes",
+                "dativ": "dem Baum oder dem Baume",
+                "akkusativ": "den Baum"
+            },
+            "plural": {
+                "nominativ": "die Bäume",
+                "genitiv": "der Bäume",
+                "dativ": "den Bäumen",
+                "akkusativ": "die Bäume"
+            }
+        },
+        {
+            "word": "Ball",
+            "wordRu": "мяч",
+            "singular": {
+                "nominativ": "der Ball",
+                "genitiv": "des Balls",
+                "dativ": "dem Ball",
+                "akkusativ": "den Ball"
+            },
+            "plural": {
+                "nominativ": "die Bälle",
+                "genitiv": "der Bälle",
+                "dativ": "den Bällen",
+                "akkusativ": "die Bälle"
+            }
+        },
+        {
+            "word": "Bett",
+            "wordRu": "кровать",
+            "singular": {
+                "nominativ": "das Bett",
+                "genitiv": "des Bettes",
+                "dativ": "dem Bett",
+                "akkusativ": "das Bett"
+            },
+            "plural": {
+                "nominativ": "die Betten",
+                "genitiv": "der Betten",
+                "dativ": "den Betten",
+                "akkusativ": "die Betten"
+            }
+        },
+        {
+            "word": "Bruder",
+            "wordRu": "брат",
+            "singular": {
+                "nominativ": "der Bruder",
+                "genitiv": "des Bruders",
+                "dativ": "dem Bruder",
+                "akkusativ": "den Bruder"
+            },
+            "plural": {
+                "nominativ": "die Brüder",
+                "genitiv": "der Brüder",
+                "dativ": "den Brüdern",
+                "akkusativ": "die Brüder"
+            }
+        },
+        {
+            "word": "Brot",
+            "wordRu": "хлеб",
+            "singular": {
+                "nominativ": "das Brot",
+                "genitiv": "des Brotes",
+                "dativ": "dem Brot",
+                "akkusativ": "das Brot"
+            },
+            "plural": {
+                "nominativ": "die Brote",
+                "genitiv": "der Brote",
+                "dativ": "den Broten",
+                "akkusativ": "die Brote"
+            }
+        },
+        {
+            "word": "Buch",
+            "wordRu": "книга",
+            "singular": {
+                "nominativ": "das Buch",
+                "genitiv": "des Buchs",
+                "dativ": "dem Buch",
+                "akkusativ": "das Buch"
+            },
+            "plural": {
+                "nominativ": "die Bücher",
+                "genitiv": "der Bücher",
+                "dativ": "den Büchern",
+                "akkusativ": "die Bücher"
+            }
+        },
+        {
+            "word": "Bank",
+            "wordRu": "банк",
+            "singular": {
+                "nominativ": "die Bank",
+                "genitiv": "der Bank",
+                "dativ": "der Bank",
+                "akkusativ": "die Bank"
+            },
+            "plural": {
+                "nominativ": "die Banken",
+                "genitiv": "der Banken",
+                "dativ": "den Banken",
+                "akkusativ": "die Banken"
+            }
+        },
+        {
+            "word": "Bär",
+            "wordRu": "медведь",
+            "singular": {
+                "nominativ": "der Bär",
+                "genitiv": "des Bären",
+                "dativ": "dem Bären",
+                "akkusativ": "den Bären"
+            },
+            "plural": {
+                "nominativ": "die Bären",
+                "genitiv": "der Bären",
+                "dativ": "den Bären",
+                "akkusativ": "die Bären"
+            }
+        },
+        {
+            "word": "Butter",
+            "wordRu": "масло",
+            "singular": {
+                "nominativ": "die Butter",
+                "genitiv": "der Butter",
+                "dativ": "der Butter",
+                "akkusativ": "die Butter"
+            },
+            "plural": {
+                "nominativ": "die Butter",
+                "genitiv": "der Butter",
+                "dativ": "den Buttern",
+                "akkusativ": "die Butter"
+            }
+        },
+        {
+            "word": "Balkon",
+            "wordRu": "балкон",
+            "singular": {
+                "nominativ": "der Balkon",
+                "genitiv": "des Balkons",
+                "dativ": "dem Balkon",
+                "akkusativ": "den Balkon"
+            },
+            "plural": {
+                "nominativ": "die Balkone",
+                "genitiv": "der Balkone",
+                "dativ": "den Balkonen",
+                "akkusativ": "die Balkone"
+            }
+        }
+    ],
+    "C": [
+        {
+            "word": "Computer",
+            "wordRu": "компьютер",
+            "singular": {
+                "nominativ": "der Computer",
+                "genitiv": "des Computers",
+                "dativ": "dem Computer",
+                "akkusativ": "den Computer"
+            },
+            "plural": {
+                "nominativ": "die Computer",
+                "genitiv": "der Computer",
+                "dativ": "den Computern",
+                "akkusativ": "die Computer"
+            }
+        },
+        {
+            "word": "Chef",
+            "wordRu": "шеф",
+            "singular": {
+                "nominativ": "der Chef",
+                "genitiv": "des Chefs",
+                "dativ": "dem Chef",
+                "akkusativ": "den Chef"
+            },
+            "plural": {
+                "nominativ": "die Chefs",
+                "genitiv": "der Chefs",
+                "dativ": "den Chefs",
+                "akkusativ": "die Chefs"
+            }
+        },
+        {
+            "word": "Cocktail",
+            "wordRu": "коктейль",
+            "singular": {
+                "nominativ": "der Cocktail",
+                "genitiv": "des Cocktails",
+                "dativ": "dem Cocktail",
+                "akkusativ": "den Cocktail"
+            },
+            "plural": {
+                "nominativ": "die Cocktails",
+                "genitiv": "der Cocktails",
+                "dativ": "den Cocktails",
+                "akkusativ": "die Cocktails"
+            }
+        },
+        {
+            "word": "Cappuccino",
+            "wordRu": "капучино",
+            "singular": {
+                "nominativ": "der Cappuccino",
+                "genitiv": "des Cappuccinos",
+                "dativ": "dem Cappuccino",
+                "akkusativ": "den Cappuccino"
+            },
+            "plural": {
+                "nominativ": "die Cappuccinos",
+                "genitiv": "der Cappuccinos",
+                "dativ": "den Cappuccinos",
+                "akkusativ": "die Cappuccinos"
+            }
+        },
+        {
+            "word": "Couch",
+            "wordRu": "диван",
+            "singular": {
+                "nominativ": "die Couch",
+                "genitiv": "der Couch",
+                "dativ": "der Couch",
+                "akkusativ": "die Couch"
+            },
+            "plural": {
+                "nominativ": "die Couches",
+                "genitiv": "der Couches",
+                "dativ": "den Couches",
+                "akkusativ": "die Couches"
+            }
+        },
+        {
+            "word": "Cola",
+            "wordRu": "кола",
+            "singular": {
+                "nominativ": "die Cola",
+                "genitiv": "der Cola",
+                "dativ": "der Cola",
+                "akkusativ": "die Cola"
+            },
+            "plural": {
+                "nominativ": "die Colas",
+                "genitiv": "der Colas",
+                "dativ": "den Colas",
+                "akkusativ": "die Colas"
+            }
+        },
+        {
+            "word": "CD",
+            "wordRu": "CD-диск",
+            "singular": {
+                "nominativ": "die CD",
+                "genitiv": "der CD",
+                "dativ": "der CD",
+                "akkusativ": "die CD"
+            },
+            "plural": {
+                "nominativ": "die CDs",
+                "genitiv": "der CDs",
+                "dativ": "den CDs",
+                "akkusativ": "die CDs"
+            }
+        },
+        {
+            "word": "Café",
+            "wordRu": "кафе",
+            "singular": {
+                "nominativ": "das Café",
+                "genitiv": "des Cafés",
+                "dativ": "dem Café",
+                "akkusativ": "das Café"
+            },
+            "plural": {
+                "nominativ": "die Cafés",
+                "genitiv": "der Cafés",
+                "dativ": "den Cafés",
+                "akkusativ": "die Cafés"
+            }
+        },
+        {
+            "word": "Campingplatz",
+            "wordRu": "кемпинг",
+            "singular": {
+                "nominativ": "der Campingplatz",
+                "genitiv": "des Campingplatzes",
+                "dativ": "dem Campingplatz",
+                "akkusativ": "den Campingplatz"
+            },
+            "plural": {
+                "nominativ": "die Campingplätze",
+                "genitiv": "der Campingplätze",
+                "dativ": "den Campingplätzen",
+                "akkusativ": "die Campingplätze"
+            }
+        },
+        {
+            "word": "Cabrio",
+            "wordRu": "кабриолет",
+            "singular": {
+                "nominativ": "das Cabrio",
+                "genitiv": "des Cabrios",
+                "dativ": "dem Cabrio",
+                "akkusativ": "das Cabrio"
+            },
+            "plural": {
+                "nominativ": "die Cabrios",
+                "genitiv": "der Cabrios",
+                "dativ": "den Cabrios",
+                "akkusativ": "die Cabrios"
+            }
+        }
+    ],
+    "D": [
+        {
+            "word": "Dach",
+            "wordRu": "крыша",
+            "singular": {
+                "nominativ": "das Dach",
+                "genitiv": "des Dachs",
+                "dativ": "dem Dach",
+                "akkusativ": "das Dach"
+            },
+            "plural": {
+                "nominativ": "die Dächer",
+                "genitiv": "der Dächer",
+                "dativ": "den Dächern",
+                "akkusativ": "die Dächer"
+            }
+        },
+        {
+            "word": "Dose",
+            "wordRu": "банка",
+            "singular": {
+                "nominativ": "die Dose",
+                "genitiv": "der Dose",
+                "dativ": "der Dose",
+                "akkusativ": "die Dose"
+            },
+            "plural": {
+                "nominativ": "die Dosen",
+                "genitiv": "der Dosen",
+                "dativ": "den Dosen",
+                "akkusativ": "die Dosen"
+            }
+        },
+        {
+            "word": "Drucker",
+            "wordRu": "принтер",
+            "singular": {
+                "nominativ": "der Drucker",
+                "genitiv": "des Druckers",
+                "dativ": "dem Drucker",
+                "akkusativ": "den Drucker"
+            },
+            "plural": {
+                "nominativ": "die Drucker",
+                "genitiv": "der Drucker",
+                "dativ": "den Druckern",
+                "akkusativ": "die Drucker"
+            }
+        },
+        {
+            "word": "Donnerstag",
+            "wordRu": "четверг",
+            "singular": {
+                "nominativ": "der Donnerstag",
+                "genitiv": "des Donnerstags",
+                "dativ": "dem Donnerstag",
+                "akkusativ": "den Donnerstag"
+            },
+            "plural": {
+                "nominativ": "die Donnerstage",
+                "genitiv": "der Donnerstage",
+                "dativ": "den Donnerstagen",
+                "akkusativ": "die Donnerstage"
+            }
+        },
+        {
+            "word": "Dienstag",
+            "wordRu": "вторник",
+            "singular": {
+                "nominativ": "der Dienstag",
+                "genitiv": "des Dienstags",
+                "dativ": "dem Dienstag",
+                "akkusativ": "den Dienstag"
+            },
+            "plural": {
+                "nominativ": "die Dienstage",
+                "genitiv": "der Dienstage",
+                "dativ": "den Dienstagen",
+                "akkusativ": "die Dienstage"
+            }
+        },
+        {
+            "word": "Decke",
+            "wordRu": "покрывало",
+            "singular": {
+                "nominativ": "die Decke",
+                "genitiv": "der Decke",
+                "dativ": "der Decke",
+                "akkusativ": "die Decke"
+            },
+            "plural": {
+                "nominativ": "die Decken",
+                "genitiv": "der Decken",
+                "dativ": "den Decken",
+                "akkusativ": "die Decken"
+            }
+        },
+        {
+            "word": "Dusche",
+            "wordRu": "душ",
+            "singular": {
+                "nominativ": "die Dusche",
+                "genitiv": "der Dusche",
+                "dativ": "der Dusche",
+                "akkusativ": "die Dusche"
+            },
+            "plural": {
+                "nominativ": "die Duschen",
+                "genitiv": "der Duschen",
+                "dativ": "den Duschen",
+                "akkusativ": "die Duschen"
+            }
+        },
+        {
+            "word": "Dampflok",
+            "wordRu": "паровоз",
+            "singular": {
+                "nominativ": "die Dampflok",
+                "genitiv": "der Dampflok",
+                "dativ": "der Dampflok",
+                "akkusativ": "die Dampflok"
+            },
+            "plural": {
+                "nominativ": "die Dampfloks",
+                "genitiv": "der Dampfloks",
+                "dativ": "den Dampfloks",
+                "akkusativ": "die Dampfloks"
+            }
+        },
+        {
+            "word": "Donut",
+            "wordRu": "пончик",
+            "singular": {
+                "nominativ": "der Donut",
+                "genitiv": "des Donuts",
+                "dativ": "dem Donut",
+                "akkusativ": "den Donut"
+            },
+            "plural": {
+                "nominativ": "die Donuts",
+                "genitiv": "der Donuts",
+                "dativ": "den Donuts",
+                "akkusativ": "die Donuts"
+            }
+        },
+        {
+            "word": "Deutschland",
+            "wordRu": "Германия",
+            "singular": {
+                "nominativ": "das Deutschland",
+                "genitiv": "des Deutschlands",
+                "dativ": "dem Deutschland",
+                "akkusativ": "das Deutschland"
+            },
+            "plural": {
+                "nominativ": "die Deutschland",
+                "genitiv": "der Deutschland",
+                "dativ": "den Deutschland",
+                "akkusativ": "die Deutschland"
+            }
+        }
+    ],
+    "E": [
+        {
+            "word": "Ei",
+            "wordRu": "яйцо",
+            "singular": {
+                "nominativ": "das Ei",
+                "genitiv": "des Eis",
+                "dativ": "dem Ei",
+                "akkusativ": "das Ei"
+            },
+            "plural": {
+                "nominativ": "die Eier",
+                "genitiv": "der Eier",
+                "dativ": "den Eiern",
+                "akkusativ": "die Eier"
+            }
+        },
+        {
+            "word": "Erdbeere",
+            "wordRu": "клубника",
+            "singular": {
+                "nominativ": "die Erdbeere",
+                "genitiv": "der Erdbeere",
+                "dativ": "der Erdbeere",
+                "akkusativ": "die Erdbeere"
+            },
+            "plural": {
+                "nominativ": "die Erdbeeren",
+                "genitiv": "der Erdbeeren",
+                "dativ": "den Erdbeeren",
+                "akkusativ": "die Erdbeeren"
+            }
+        },
+        {
+            "word": "Eltern",
+            "wordRu": "родители",
+            "singular": {
+                "nominativ": "die Eltern",
+                "genitiv": "der Eltern",
+                "dativ": "den Eltern",
+                "akkusativ": "die Eltern"
+            },
+            "plural": {
+                "nominativ": "die Eltern",
+                "genitiv": "der Eltern",
+                "dativ": "den Eltern",
+                "akkusativ": "die Eltern"
+            }
+        },
+        {
+            "word": "Ecke",
+            "wordRu": "угол",
+            "singular": {
+                "nominativ": "die Ecke",
+                "genitiv": "der Ecke",
+                "dativ": "der Ecke",
+                "akkusativ": "die Ecke"
+            },
+            "plural": {
+                "nominativ": "die Ecken",
+                "genitiv": "der Ecken",
+                "dativ": "den Ecken",
+                "akkusativ": "die Ecken"
+            }
+        },
+        {
+            "word": "Einladung",
+            "wordRu": "приглашение",
+            "singular": {
+                "nominativ": "die Einladung",
+                "genitiv": "der Einladung",
+                "dativ": "der Einladung",
+                "akkusativ": "die Einladung"
+            },
+            "plural": {
+                "nominativ": "die Einladungen",
+                "genitiv": "der Einladungen",
+                "dativ": "den Einladungen",
+                "akkusativ": "die Einladungen"
+            }
+        },
+        {
+            "word": "Essen",
+            "wordRu": "еда",
+            "singular": {
+                "nominativ": "das Essen",
+                "genitiv": "des Essens",
+                "dativ": "dem Essen",
+                "akkusativ": "das Essen"
+            },
+            "plural": {
+                "nominativ": "die Essen",
+                "genitiv": "der Essen",
+                "dativ": "den Essen",
+                "akkusativ": "die Essen"
+            }
+        },
+        {
+            "word": "Eis",
+            "wordRu": "мороженое",
+            "singular": {
+                "nominativ": "das Eis",
+                "genitiv": "des Eises",
+                "dativ": "dem Eis",
+                "akkusativ": "das Eis"
+            },
+            "plural": {
+                "nominativ": "die Eis",
+                "genitiv": "der Eis",
+                "dativ": "den Eis",
+                "akkusativ": "die Eis"
+            }
+        },
+        {
+            "word": "Ente",
+            "wordRu": "утка",
+            "singular": {
+                "nominativ": "die Ente",
+                "genitiv": "der Ente",
+                "dativ": "der Ente",
+                "akkusativ": "die Ente"
+            },
+            "plural": {
+                "nominativ": "die Enten",
+                "genitiv": "der Enten",
+                "dativ": "den Enten",
+                "akkusativ": "die Enten"
+            }
+        },
+        {
+            "word": "E-Mail",
+            "wordRu": "электронное письмо",
+            "singular": {
+                "nominativ": "die E-Mail",
+                "genitiv": "der E-Mail",
+                "dativ": "der E-Mail",
+                "akkusativ": "die E-Mail"
+            },
+            "plural": {
+                "nominativ": "die E-Mails",
+                "genitiv": "der E-Mails",
+                "dativ": "den E-Mails",
+                "akkusativ": "die E-Mails"
+            }
+        },
+        {
+            "word": "Einkaufszentrum",
+            "wordRu": "торговый центр",
+            "singular": {
+                "nominativ": "das Einkaufszentrum",
+                "genitiv": "des Einkaufszentrums",
+                "dativ": "dem Einkaufszentrum",
+                "akkusativ": "das Einkaufszentrum"
+            },
+            "plural": {
+                "nominativ": "die Einkaufszentren",
+                "genitiv": "der Einkaufszentren",
+                "dativ": "den Einkaufszentren",
+                "akkusativ": "die Einkaufszentren"
+            }
+        }
+    ],
+    "F": [
+        {
+            "word": "Fenster",
+            "wordRu": "окно",
+            "singular": {
+                "nominativ": "das Fenster",
+                "genitiv": "des Fensters",
+                "dativ": "dem Fenster",
+                "akkusativ": "das Fenster"
+            },
+            "plural": {
+                "nominativ": "die Fenster",
+                "genitiv": "der Fenster",
+                "dativ": "den Fenstern",
+                "akkusativ": "die Fenster"
+            }
+        },
+        {
+            "word": "Fisch",
+            "wordRu": "рыба",
+            "singular": {
+                "nominativ": "der Fisch",
+                "genitiv": "des Fisches",
+                "dativ": "dem Fisch",
+                "akkusativ": "den Fisch"
+            },
+            "plural": {
+                "nominativ": "die Fische",
+                "genitiv": "der Fische",
+                "dativ": "den Fischen",
+                "akkusativ": "die Fische"
+            }
+        },
+        {
+            "word": "Flughafen",
+            "wordRu": "аэропорт",
+            "singular": {
+                "nominativ": "der Flughafen",
+                "genitiv": "des Flughafens",
+                "dativ": "dem Flughafen",
+                "akkusativ": "den Flughafen"
+            },
+            "plural": {
+                "nominativ": "die Flughäfen",
+                "genitiv": "der Flughäfen",
+                "dativ": "den Flughäfen",
+                "akkusativ": "die Flughäfen"
+            }
+        },
+        {
+            "word": "Freund",
+            "wordRu": "друг",
+            "singular": {
+                "nominativ": "der Freund",
+                "genitiv": "des Freundes",
+                "dativ": "dem Freund",
+                "akkusativ": "den Freund"
+            },
+            "plural": {
+                "nominativ": "die Freunde",
+                "genitiv": "der Freunde",
+                "dativ": "den Freunden",
+                "akkusativ": "die Freunde"
+            }
+        },
+        {
+            "word": "Familie",
+            "wordRu": "семья",
+            "singular": {
+                "nominativ": "die Familie",
+                "genitiv": "der Familie",
+                "dativ": "der Familie",
+                "akkusativ": "die Familie"
+            },
+            "plural": {
+                "nominativ": "die Familien",
+                "genitiv": "der Familien",
+                "dativ": "den Familien",
+                "akkusativ": "die Familien"
+            }
+        },
+        {
+            "word": "Fahrrad",
+            "wordRu": "велосипед",
+            "singular": {
+                "nominativ": "das Fahrrad",
+                "genitiv": "des Fahrrads",
+                "dativ": "dem Fahrrad",
+                "akkusativ": "das Fahrrad"
+            },
+            "plural": {
+                "nominativ": "die Fahrräder",
+                "genitiv": "der Fahrräder",
+                "dativ": "den Fahrrädern",
+                "akkusativ": "die Fahrräder"
+            }
+        },
+        {
+            "word": "Frau",
+            "wordRu": "женщина",
+            "singular": {
+                "nominativ": "die Frau",
+                "genitiv": "der Frau",
+                "dativ": "der Frau",
+                "akkusativ": "die Frau"
+            },
+            "plural": {
+                "nominativ": "die Frauen",
+                "genitiv": "der Frauen",
+                "dativ": "den Frauen",
+                "akkusativ": "die Frauen"
+            }
+        },
+        {
+            "word": "Fluss",
+            "wordRu": "река",
+            "singular": {
+                "nominativ": "der Fluss",
+                "genitiv": "des Flusses",
+                "dativ": "dem Fluss",
+                "akkusativ": "den Fluss"
+            },
+            "plural": {
+                "nominativ": "die Flüsse",
+                "genitiv": "der Flüsse",
+                "dativ": "den Flüssen",
+                "akkusativ": "die Flüsse"
+            }
+        },
+        {
+            "word": "Foto",
+            "wordRu": "фото",
+            "singular": {
+                "nominativ": "das Foto",
+                "genitiv": "des Fotos",
+                "dativ": "dem Foto",
+                "akkusativ": "das Foto"
+            },
+            "plural": {
+                "nominativ": "die Fotos",
+                "genitiv": "der Fotos",
+                "dativ": "den Fotos",
+                "akkusativ": "die Fotos"
+            }
+        },
+        {
+            "word": "Frühstück",
+            "wordRu": "завтрак",
+            "singular": {
+                "nominativ": "das Frühstück",
+                "genitiv": "des Frühstücks",
+                "dativ": "dem Frühstück",
+                "akkusativ": "das Frühstück"
+            },
+            "plural": {
+                "nominativ": "die Frühstücke",
+                "genitiv": "der Frühstücke",
+                "dativ": "den Frühstücken",
+                "akkusativ": "die Frühstücke"
+            }
+        }
+    ],
+    "G": [
+        {
+            "word": "Garten",
+            "wordRu": "сад",
+            "singular": {
+                "nominativ": "der Garten",
+                "genitiv": "des Gartens",
+                "dativ": "dem Garten",
+                "akkusativ": "den Garten"
+            },
+            "plural": {
+                "nominativ": "die Gärten",
+                "genitiv": "der Gärten",
+                "dativ": "den Gärten",
+                "akkusativ": "die Gärten"
+            }
+        },
+        {
+            "word": "Gitarre",
+            "wordRu": "гитара",
+            "singular": {
+                "nominativ": "die Gitarre",
+                "genitiv": "der Gitarre",
+                "dativ": "der Gitarre",
+                "akkusativ": "die Gitarre"
+            },
+            "plural": {
+                "nominativ": "die Gitarren",
+                "genitiv": "der Gitarren",
+                "dativ": "den Gitarren",
+                "akkusativ": "die Gitarren"
+            }
+        },
+        {
+            "word": "Glas",
+            "wordRu": "стекло",
+            "singular": {
+                "nominativ": "das Glas",
+                "genitiv": "des Glases",
+                "dativ": "dem Glas",
+                "akkusativ": "das Glas"
+            },
+            "plural": {
+                "nominativ": "die Gläser",
+                "genitiv": "der Gläser",
+                "dativ": "den Gläsern",
+                "akkusativ": "die Gläser"
+            }
+        },
+        {
+            "word": "Geburtstag",
+            "wordRu": "день рождения",
+            "singular": {
+                "nominativ": "der Geburtstag",
+                "genitiv": "des Geburtstags",
+                "dativ": "dem Geburtstag",
+                "akkusativ": "den Geburtstag"
+            },
+            "plural": {
+                "nominativ": "die Geburtstage",
+                "genitiv": "der Geburtstage",
+                "dativ": "den Geburtstagen",
+                "akkusativ": "die Geburtstage"
+            }
+        },
+        {
+            "word": "Geschenk",
+            "wordRu": "подарок",
+            "singular": {
+                "nominativ": "das Geschenk",
+                "genitiv": "des Geschenks",
+                "dativ": "dem Geschenk",
+                "akkusativ": "das Geschenk"
+            },
+            "plural": {
+                "nominativ": "die Geschenke",
+                "genitiv": "der Geschenke",
+                "dativ": "den Geschenken",
+                "akkusativ": "die Geschenke"
+            }
+        },
+        {
+            "word": "Gabel",
+            "wordRu": "вилка",
+            "singular": {
+                "nominativ": "die Gabel",
+                "genitiv": "der Gabel",
+                "dativ": "der Gabel",
+                "akkusativ": "die Gabel"
+            },
+            "plural": {
+                "nominativ": "die Gabeln",
+                "genitiv": "der Gabeln",
+                "dativ": "den Gabeln",
+                "akkusativ": "die Gabeln"
+            }
+        },
+        {
+            "word": "Geld",
+            "wordRu": "деньги",
+            "singular": {
+                "nominativ": "das Geld",
+                "genitiv": "des Geldes",
+                "dativ": "dem Geld",
+                "akkusativ": "das Geld"
+            },
+            "plural": {
+                "nominativ": "die Gelder",
+                "genitiv": "der Gelder",
+                "dativ": "den Geldern",
+                "akkusativ": "die Gelder"
+            }
+        },
+        {
+            "word": "Gesicht",
+            "wordRu": "лицо",
+            "singular": {
+                "nominativ": "das Gesicht",
+                "genitiv": "des Gesichts",
+                "dativ": "dem Gesicht",
+                "akkusativ": "das Gesicht"
+            },
+            "plural": {
+                "nominativ": "die Gesichter",
+                "genitiv": "der Gesichter",
+                "dativ": "den Gesichtern",
+                "akkusativ": "die Gesichter"
+            }
+        },
+        {
+            "word": "Glück",
+            "wordRu": "счастье",
+            "singular": {
+                "nominativ": "das Glück",
+                "genitiv": "des Glücks",
+                "dativ": "dem Glück",
+                "akkusativ": "das Glück"
+            },
+            "plural": {
+                "nominativ": "die Glücke",
+                "genitiv": "der Glücke",
+                "dativ": "den Glücken",
+                "akkusativ": "die Glücke"
+            }
+        },
+        {
+            "word": "Getränk",
+            "wordRu": "напиток",
+            "singular": {
+                "nominativ": "das Getränk",
+                "genitiv": "des Getränks",
+                "dativ": "dem Getränk",
+                "akkusativ": "das Getränk"
+            },
+            "plural": {
+                "nominativ": "die Getränke",
+                "genitiv": "der Getränke",
+                "dativ": "den Getränken",
+                "akkusativ": "die Getränke"
+            }
+        }
+    ],
+    "H": [
+        {
+            "word": "Haus",
+            "wordRu": "дом",
+            "singular": {
+                "nominativ": "das Haus",
+                "genitiv": "des Hauses",
+                "dativ": "dem Haus",
+                "akkusativ": "das Haus"
+            },
+            "plural": {
+                "nominativ": "die Häuser",
+                "genitiv": "der Häuser",
+                "dativ": "den Häusern",
+                "akkusativ": "die Häuser"
+            }
+        },
+        {
+            "word": "Hund",
+            "wordRu": "собака",
+            "singular": {
+                "nominativ": "der Hund",
+                "genitiv": "des Hundes",
+                "dativ": "dem Hund",
+                "akkusativ": "den Hund"
+            },
+            "plural": {
+                "nominativ": "die Hunde",
+                "genitiv": "der Hunde",
+                "dativ": "den Hunden",
+                "akkusativ": "die Hunde"
+            }
+        },
+        {
+            "word": "Himmel",
+            "wordRu": "небо",
+            "singular": {
+                "nominativ": "der Himmel",
+                "genitiv": "des Himmels",
+                "dativ": "dem Himmel",
+                "akkusativ": "den Himmel"
+            },
+            "plural": {
+                "nominativ": "die Himmel",
+                "genitiv": "der Himmel",
+                "dativ": "den Himmeln",
+                "akkusativ": "die Himmel"
+            }
+        },
+        {
+            "word": "Hemd",
+            "wordRu": "рубашка",
+            "singular": {
+                "nominativ": "das Hemd",
+                "genitiv": "des Hemds",
+                "dativ": "dem Hemd",
+                "akkusativ": "das Hemd"
+            },
+            "plural": {
+                "nominativ": "die Hemden",
+                "genitiv": "der Hemden",
+                "dativ": "den Hemden",
+                "akkusativ": "die Hemden"
+            }
+        },
+        {
+            "word": "Hase",
+            "wordRu": "заяц",
+            "singular": {
+                "nominativ": "der Hase",
+                "genitiv": "des Hasen",
+                "dativ": "dem Hasen",
+                "akkusativ": "den Hasen"
+            },
+            "plural": {
+                "nominativ": "die Hasen",
+                "genitiv": "der Hasen",
+                "dativ": "den Hasen",
+                "akkusativ": "die Hasen"
+            }
+        },
+        {
+            "word": "Heft",
+            "wordRu": "тетрадь",
+            "singular": {
+                "nominativ": "das Heft",
+                "genitiv": "des Hefts",
+                "dativ": "dem Heft",
+                "akkusativ": "das Heft"
+            },
+            "plural": {
+                "nominativ": "die Hefte",
+                "genitiv": "der Hefte",
+                "dativ": "den Heften",
+                "akkusativ": "die Hefte"
+            }
+        },
+        {
+            "word": "Herz",
+            "wordRu": "сердце",
+            "singular": {
+                "nominativ": "das Herz",
+                "genitiv": "des Herzens",
+                "dativ": "dem Herzen",
+                "akkusativ": "das Herz"
+            },
+            "plural": {
+                "nominativ": "die Herzen",
+                "genitiv": "der Herzen",
+                "dativ": "den Herzen",
+                "akkusativ": "die Herzen"
+            }
+        },
+        {
+            "word": "Haar",
+            "wordRu": "волос",
+            "singular": {
+                "nominativ": "das Haar",
+                "genitiv": "des Haares",
+                "dativ": "dem Haar",
+                "akkusativ": "das Haar"
+            },
+            "plural": {
+                "nominativ": "die Haare",
+                "genitiv": "der Haare",
+                "dativ": "den Haaren",
+                "akkusativ": "die Haare"
+            }
+        },
+        {
+            "word": "Hand",
+            "wordRu": "рука",
+            "singular": {
+                "nominativ": "die Hand",
+                "genitiv": "der Hand",
+                "dativ": "der Hand",
+                "akkusativ": "die Hand"
+            },
+            "plural": {
+                "nominativ": "die Hände",
+                "genitiv": "der Hände",
+                "dativ": "den Händen",
+                "akkusativ": "die Hände"
+            }
+        },
+        {
+            "word": "Hausaufgabe",
+            "wordRu": "домашнее задание",
+            "singular": {
+                "nominativ": "die Hausaufgabe",
+                "genitiv": "der Hausaufgabe",
+                "dativ": "der Hausaufgabe",
+                "akkusativ": "die Hausaufgabe"
+            },
+            "plural": {
+                "nominativ": "die Hausaufgaben",
+                "genitiv": "der Hausaufgaben",
+                "dativ": "den Hausaufgaben",
+                "akkusativ": "die Hausaufgaben"
+            }
+        }
+    ],
+    "I": [
+        {
+            "word": "Idee",
+            "wordRu": "идея",
+            "singular": {
+                "nominativ": "die Idee",
+                "genitiv": "der Idee",
+                "dativ": "der Idee",
+                "akkusativ": "die Idee"
+            },
+            "plural": {
+                "nominativ": "die Ideen",
+                "genitiv": "der Ideen",
+                "dativ": "den Ideen",
+                "akkusativ": "die Ideen"
+            }
+        },
+        {
+            "word": "Insel",
+            "wordRu": "остров",
+            "singular": {
+                "nominativ": "die Insel",
+                "genitiv": "der Insel",
+                "dativ": "der Insel",
+                "akkusativ": "die Insel"
+            },
+            "plural": {
+                "nominativ": "die Inseln",
+                "genitiv": "der Inseln",
+                "dativ": "den Inseln",
+                "akkusativ": "die Inseln"
+            }
+        },
+        {
+            "word": "Internet",
+            "wordRu": "интернет",
+            "singular": {
+                "nominativ": "das Internet",
+                "genitiv": "des Internets",
+                "dativ": "dem Internet",
+                "akkusativ": "das Internet"
+            },
+            "plural": {
+                "nominativ": "die Internets",
+                "genitiv": "der Internets",
+                "dativ": "den Internets",
+                "akkusativ": "die Internets"
+            }
+        },
+        {
+            "word": "Information",
+            "wordRu": "информация",
+            "singular": {
+                "nominativ": "die Information",
+                "genitiv": "der Information",
+                "dativ": "der Information",
+                "akkusativ": "die Information"
+            },
+            "plural": {
+                "nominativ": "die Informationen",
+                "genitiv": "der Informationen",
+                "dativ": "den Informationen",
+                "akkusativ": "die Informationen"
+            }
+        },
+        {
+            "word": "Instrument",
+            "wordRu": "инструмент",
+            "singular": {
+                "nominativ": "das Instrument",
+                "genitiv": "des Instruments",
+                "dativ": "dem Instrument",
+                "akkusativ": "das Instrument"
+            },
+            "plural": {
+                "nominativ": "die Instrumente",
+                "genitiv": "der Instrumente",
+                "dativ": "den Instrumenten",
+                "akkusativ": "die Instrumente"
+            }
+        },
+        {
+            "word": "Intelligenz",
+            "wordRu": "интеллект",
+            "singular": {
+                "nominativ": "die Intelligenz",
+                "genitiv": "der Intelligenz",
+                "dativ": "der Intelligenz",
+                "akkusativ": "die Intelligenz"
+            },
+            "plural": {
+                "nominativ": "die Intelligenzen",
+                "genitiv": "der Intelligenzen",
+                "dativ": "den Intelligenzen",
+                "akkusativ": "die Intelligenzen"
+            }
+        },
+        {
+            "word": "Industrie",
+            "wordRu": "промышленность",
+            "singular": {
+                "nominativ": "die Industrie",
+                "genitiv": "der Industrie",
+                "dativ": "der Industrie",
+                "akkusativ": "die Industrie"
+            },
+            "plural": {
+                "nominativ": "die Industrien",
+                "genitiv": "der Industrien",
+                "dativ": "den Industrien",
+                "akkusativ": "die Industrien"
+            }
+        },
+        {
+            "word": "Interpretation",
+            "wordRu": "интерпретация",
+            "singular": {
+                "nominativ": "die Interpretation",
+                "genitiv": "der Interpretation",
+                "dativ": "der Interpretation",
+                "akkusativ": "die Interpretation"
+            },
+            "plural": {
+                "nominativ": "die Interpretationen",
+                "genitiv": "der Interpretationen",
+                "dativ": "den Interpretationen",
+                "akkusativ": "die Interpretationen"
+            }
+        },
+        {
+            "word": "Interview",
+            "wordRu": "интервью",
+            "singular": {
+                "nominativ": "das Interview",
+                "genitiv": "des Interviews",
+                "dativ": "dem Interview",
+                "akkusativ": "das Interview"
+            },
+            "plural": {
+                "nominativ": "die Interviews",
+                "genitiv": "der Interviews",
+                "dativ": "den Interviews",
+                "akkusativ": "die Interviews"
+            }
+        },
+        {
+            "word": "Investition",
+            "wordRu": "инвестиция",
+            "singular": {
+                "nominativ": "die Investition",
+                "genitiv": "der Investition",
+                "dativ": "der Investition",
+                "akkusativ": "die Investition"
+            },
+            "plural": {
+                "nominativ": "die Investitionen",
+                "genitiv": "der Investitionen",
+                "dativ": "den Investitionen",
+                "akkusativ": "die Investitionen"
+            }
+        }
+    ],
+    "J": [
+        {
+            "word": "Jahr",
+            "wordRu": "год",
+            "singular": {
+                "nominativ": "das Jahr",
+                "genitiv": "des Jahres",
+                "dativ": "dem Jahr",
+                "akkusativ": "das Jahr"
+            },
+            "plural": {
+                "nominativ": "die Jahre",
+                "genitiv": "der Jahre",
+                "dativ": "den Jahren",
+                "akkusativ": "die Jahre"
+            }
+        },
+        {
+            "word": "Junge",
+            "wordRu": "мальчик",
+            "singular": {
+                "nominativ": "der Junge",
+                "genitiv": "des Jungen",
+                "dativ": "dem Jungen",
+                "akkusativ": "den Jungen"
+            },
+            "plural": {
+                "nominativ": "die Jungen",
+                "genitiv": "der Jungen",
+                "dativ": "den Jungen",
+                "akkusativ": "die Jungen"
+            }
+        },
+        {
+            "word": "Jacke",
+            "wordRu": "куртка",
+            "singular": {
+                "nominativ": "die Jacke",
+                "genitiv": "der Jacke",
+                "dativ": "der Jacke",
+                "akkusativ": "die Jacke"
+            },
+            "plural": {
+                "nominativ": "die Jacken",
+                "genitiv": "der Jacken",
+                "dativ": "den Jacken",
+                "akkusativ": "die Jacken"
+            }
+        },
+        {
+            "word": "Jahrhundert",
+            "wordRu": "век",
+            "singular": {
+                "nominativ": "das Jahrhundert",
+                "genitiv": "des Jahrhunderts",
+                "dativ": "dem Jahrhundert",
+                "akkusativ": "das Jahrhundert"
+            },
+            "plural": {
+                "nominativ": "die Jahrhunderte",
+                "genitiv": "der Jahrhunderte",
+                "dativ": "den Jahrhunderten",
+                "akkusativ": "die Jahrhunderte"
+            }
+        },
+        {
+            "word": "Januar",
+            "wordRu": "январь",
+            "singular": {
+                "nominativ": "der Januar",
+                "genitiv": "des Januars",
+                "dativ": "dem Januar",
+                "akkusativ": "den Januar"
+            },
+            "plural": {
+                "nominativ": "die Januare",
+                "genitiv": "der Januare",
+                "dativ": "den Januar",
+                "akkusativ": "die Januare"
+            }
+        },
+        {
+            "word": "Journalist",
+            "wordRu": "журналист",
+            "singular": {
+                "nominativ": "der Journalist",
+                "genitiv": "des Journalisten",
+                "dativ": "dem Journalisten",
+                "akkusativ": "den Journalisten"
+            },
+            "plural": {
+                "nominativ": "die Journalisten",
+                "genitiv": "der Journalisten",
+                "dativ": "den Journalisten",
+                "akkusativ": "die Journalisten"
+            }
+        },
+        {
+            "word": "Jugend",
+            "wordRu": "молодежь",
+            "singular": {
+                "nominativ": "die Jugend",
+                "genitiv": "der Jugend",
+                "dativ": "der Jugend",
+                "akkusativ": "die Jugend"
+            },
+            "plural": {
+                "nominativ": "die Jugend",
+                "genitiv": "der Jugend",
+                "dativ": "den Jugend",
+                "akkusativ": "die Jugend"
+            }
+        },
+        {
+            "word": "Junge",
+            "wordRu": "мальчик",
+            "singular": {
+                "nominativ": "der Junge",
+                "genitiv": "des Jungen",
+                "dativ": "dem Jungen",
+                "akkusativ": "den Jungen"
+            },
+            "plural": {
+                "nominativ": "die Jungen",
+                "genitiv": "der Jungen",
+                "dativ": "den Jungen",
+                "akkusativ": "die Jungen"
+            }
+        },
+        {
+            "word": "Jury",
+            "wordRu": "жюри",
+            "singular": {
+                "nominativ": "die Jury",
+                "genitiv": "der Jury",
+                "dativ": "der Jury",
+                "akkusativ": "die Jury"
+            },
+            "plural": {
+                "nominativ": "die Jurys",
+                "genitiv": "der Jurys",
+                "dativ": "den Jurys",
+                "akkusativ": "die Jurys"
+            }
+        },
+        {
+            "word": "Juwel",
+            "wordRu": "драгоценность",
+            "singular": {
+                "nominativ": "das Juwel",
+                "genitiv": "des Juwels",
+                "dativ": "dem Juwel",
+                "akkusativ": "das Juwel"
+            },
+            "plural": {
+                "nominativ": "die Juwelen",
+                "genitiv": "der Juwelen",
+                "dativ": "den Juwelen",
+                "akkusativ": "die Juwelen"
+            }
+        }
+    ],
+    "K": [
+        {
+            "word": "Katze",
+            "wordRu": "кошка",
+            "singular": {
+                "nominativ": "die Katze",
+                "genitiv": "der Katze",
+                "dativ": "der Katze",
+                "akkusativ": "die Katze"
+            },
+            "plural": {
+                "nominativ": "die Katzen",
+                "genitiv": "der Katzen",
+                "dativ": "den Katzen",
+                "akkusativ": "die Katzen"
+            }
+        },
+        {
+            "word": "Kaffee",
+            "wordRu": "кофе",
+            "singular": {
+                "nominativ": "der Kaffee",
+                "genitiv": "des Kaffees",
+                "dativ": "dem Kaffee",
+                "akkusativ": "den Kaffee"
+            },
+            "plural": {
+                "nominativ": "die Kaffees",
+                "genitiv": "der Kaffees",
+                "dativ": "den Kaffees",
+                "akkusativ": "die Kaffees"
+            }
+        },
+        {
+            "word": "Kuchen",
+            "wordRu": "торт",
+            "singular": {
+                "nominativ": "der Kuchen",
+                "genitiv": "des Kuchens",
+                "dativ": "dem Kuchen",
+                "akkusativ": "den Kuchen"
+            },
+            "plural": {
+                "nominativ": "die Kuchen",
+                "genitiv": "der Kuchen",
+                "dativ": "den Kuchen",
+                "akkusativ": "die Kuchen"
+            }
+        },
+        {
+            "word": "Kino",
+            "wordRu": "кино",
+            "singular": {
+                "nominativ": "das Kino",
+                "genitiv": "des Kinos",
+                "dativ": "dem Kino",
+                "akkusativ": "das Kino"
+            },
+            "plural": {
+                "nominativ": "die Kinos",
+                "genitiv": "der Kinos",
+                "dativ": "den Kinos",
+                "akkusativ": "die Kinos"
+            }
+        },
+        {
+            "word": "Kühlschrank",
+            "wordRu": "холодильник",
+            "singular": {
+                "nominativ": "der Kühlschrank",
+                "genitiv": "des Kühlschranks",
+                "dativ": "dem Kühlschrank",
+                "akkusativ": "den Kühlschrank"
+            },
+            "plural": {
+                "nominativ": "die Kühlschränke",
+                "genitiv": "der Kühlschränke",
+                "dativ": "den Kühlschränken",
+                "akkusativ": "die Kühlschränke"
+            }
+        },
+        {
+            "word": "Kind",
+            "wordRu": "ребенок",
+            "singular": {
+                "nominativ": "das Kind",
+                "genitiv": "des Kindes",
+                "dativ": "dem Kind",
+                "akkusativ": "das Kind"
+            },
+            "plural": {
+                "nominativ": "die Kinder",
+                "genitiv": "der Kinder",
+                "dativ": "den Kindern",
+                "akkusativ": "die Kinder"
+            }
+        },
+        {
+            "word": "Kugelschreiber",
+            "wordRu": "шариковая ручка",
+            "singular": {
+                "nominativ": "der Kugelschreiber",
+                "genitiv": "des Kugelschreibers",
+                "dativ": "dem Kugelschreiber",
+                "akkusativ": "den Kugelschreiber"
+            },
+            "plural": {
+                "nominativ": "die Kugelschreiber",
+                "genitiv": "der Kugelschreiber",
+                "dativ": "den Kugelschreibern",
+                "akkusativ": "die Kugelschreiber"
+            }
+        },
+        {
+            "word": "Krankenhaus",
+            "wordRu": "больница",
+            "singular": {
+                "nominativ": "das Krankenhaus",
+                "genitiv": "des Krankenhauses",
+                "dativ": "dem Krankenhaus",
+                "akkusativ": "das Krankenhaus"
+            },
+            "plural": {
+                "nominativ": "die Krankenhäuser",
+                "genitiv": "der Krankenhäuser",
+                "dativ": "den Krankenhäusern",
+                "akkusativ": "die Krankenhäuser"
+            }
+        },
+        {
+            "word": "Kirche",
+            "wordRu": "церковь",
+            "singular": {
+                "nominativ": "die Kirche",
+                "genitiv": "der Kirche",
+                "dativ": "der Kirche",
+                "akkusativ": "die Kirche"
+            },
+            "plural": {
+                "nominativ": "die Kirchen",
+                "genitiv": "der Kirchen",
+                "dativ": "den Kirchen",
+                "akkusativ": "die Kirchen"
+            }
+        },
+        {
+            "word": "Käse",
+            "wordRu": "сыр",
+            "singular": {
+                "nominativ": "der Käse",
+                "genitiv": "des Käses",
+                "dativ": "dem Käse",
+                "akkusativ": "den Käse"
+            },
+            "plural": {
+                "nominativ": "die Käse",
+                "genitiv": "der Käse",
+                "dativ": "den Käsen",
+                "akkusativ": "die Käse"
+            }
+        }
+    ],
+    "L": [
+        {
+            "word": "Lampe",
+            "wordRu": "лампа",
+            "singular": {
+                "nominativ": "die Lampe",
+                "genitiv": "der Lampe",
+                "dativ": "der Lampe",
+                "akkusativ": "die Lampe"
+            },
+            "plural": {
+                "nominativ": "die Lampen",
+                "genitiv": "der Lampen",
+                "dativ": "den Lampen",
+                "akkusativ": "die Lampen"
+            }
+        },
+        {
+            "word": "Löffel",
+            "wordRu": "ложка",
+            "singular": {
+                "nominativ": "der Löffel",
+                "genitiv": "des Löffels",
+                "dativ": "dem Löffel",
+                "akkusativ": "den Löffel"
+            },
+            "plural": {
+                "nominativ": "die Löffel",
+                "genitiv": "der Löffel",
+                "dativ": "den Löffeln",
+                "akkusativ": "die Löffel"
+            }
+        },
+        {
+            "word": "Leiter",
+            "wordRu": "лестница",
+            "singular": {
+                "nominativ": "die Leiter",
+                "genitiv": "der Leiter",
+                "dativ": "der Leiter",
+                "akkusativ": "die Leiter"
+            },
+            "plural": {
+                "nominativ": "die Leitern",
+                "genitiv": "der Leitern",
+                "dativ": "den Leitern",
+                "akkusativ": "die Leitern"
+            }
+        },
+        {
+            "word": "Liebe",
+            "wordRu": "любовь",
+            "singular": {
+                "nominativ": "die Liebe",
+                "genitiv": "der Liebe",
+                "dativ": "der Liebe",
+                "akkusativ": "die Liebe"
+            },
+            "plural": {
+                "nominativ": "die Lieben",
+                "genitiv": "der Lieben",
+                "dativ": "den Lieben",
+                "akkusativ": "die Lieben"
+            }
+        },
+        {
+            "word": "Leute",
+            "wordRu": "люди",
+            "singular": {
+                "nominativ": "die Leute",
+                "genitiv": "der Leute",
+                "dativ": "den Leuten",
+                "akkusativ": "die Leute"
+            },
+            "plural": {
+                "nominativ": "die Leute",
+                "genitiv": "der Leute",
+                "dativ": "den Leuten",
+                "akkusativ": "die Leute"
+            }
+        },
+        {
+            "word": "Lied",
+            "wordRu": "песня",
+            "singular": {
+                "nominativ": "das Lied",
+                "genitiv": "des Lieds",
+                "dativ": "dem Lied",
+                "akkusativ": "das Lied"
+            },
+            "plural": {
+                "nominativ": "die Lieder",
+                "genitiv": "der Lieder",
+                "dativ": "den Liedern",
+                "akkusativ": "die Lieder"
+            }
+        },
+        {
+            "word": "Löwe",
+            "wordRu": "лев",
+            "singular": {
+                "nominativ": "der Löwe",
+                "genitiv": "des Löwen",
+                "dativ": "dem Löwen",
+                "akkusativ": "den Löwen"
+            },
+            "plural": {
+                "nominativ": "die Löwen",
+                "genitiv": "der Löwen",
+                "dativ": "den Löwen",
+                "akkusativ": "die Löwen"
+            }
+        },
+        {
+            "word": "Lehrer",
+            "wordRu": "учитель",
+            "singular": {
+                "nominativ": "der Lehrer",
+                "genitiv": "des Lehrers",
+                "dativ": "dem Lehrer",
+                "akkusativ": "den Lehrer"
+            },
+            "plural": {
+                "nominativ": "die Lehrer",
+                "genitiv": "der Lehrer",
+                "dativ": "den Lehrern",
+                "akkusativ": "die Lehrer"
+            }
+        },
+        {
+            "word": "Lebkuchen",
+            "wordRu": "пряник",
+            "singular": {
+                "nominativ": "der Lebkuchen",
+                "genitiv": "des Lebkuchens",
+                "dativ": "dem Lebkuchen",
+                "akkusativ": "den Lebkuchen"
+            },
+            "plural": {
+                "nominativ": "die Lebkuchen",
+                "genitiv": "der Lebkuchen",
+                "dativ": "den Lebkuchen",
+                "akkusativ": "die Lebkuchen"
+            }
+        },
+        {
+            "word": "Laterne",
+            "wordRu": "фонарь",
+            "singular": {
+                "nominativ": "die Laterne",
+                "genitiv": "der Laterne",
+                "dativ": "der Laterne",
+                "akkusativ": "die Laterne"
+            },
+            "plural": {
+                "nominativ": "die Laternen",
+                "genitiv": "der Laternen",
+                "dativ": "den Laternen",
+                "akkusativ": "die Laternen"
+            }
+        }
+    ],
+    "M": [
+        {
+            "word": "Mann",
+            "wordRu": "мужчина",
+            "singular": {
+                "nominativ": "der Mann",
+                "genitiv": "des Mannes",
+                "dativ": "dem Mann",
+                "akkusativ": "den Mann"
+            },
+            "plural": {
+                "nominativ": "die Männer",
+                "genitiv": "der Männer",
+                "dativ": "den Männern",
+                "akkusativ": "die Männer"
+            }
+        },
+        {
+            "word": "Mädchen",
+            "wordRu": "девочка",
+            "singular": {
+                "nominativ": "das Mädchen",
+                "genitiv": "des Mädchens",
+                "dativ": "dem Mädchen",
+                "akkusativ": "das Mädchen"
+            },
+            "plural": null
+        },
+        {
+            "word": "Markt",
+            "wordRu": "рынок",
+            "singular": {
+                "nominativ": "der Markt",
+                "genitiv": "des Marktes",
+                "dativ": "dem Markt",
+                "akkusativ": "den Markt"
+            },
+            "plural": {
+                "nominativ": "die Märkte",
+                "genitiv": "der Märkte",
+                "dativ": "den Märkten",
+                "akkusativ": "die Märkte"
+            }
+        },
+        {
+            "word": "Mutter",
+            "wordRu": "мать",
+            "singular": {
+                "nominativ": "die Mutter",
+                "genitiv": "der Mutter",
+                "dativ": "der Mutter",
+                "akkusativ": "die Mutter"
+            },
+            "plural": {
+                "nominativ": "die Mütter",
+                "genitiv": "der Mütter",
+                "dativ": "den Müttern",
+                "akkusativ": "die Mütter"
+            }
+        },
+        {
+            "word": "Milch",
+            "wordRu": "молоко",
+            "singular": {
+                "nominativ": "die Milch",
+                "genitiv": "der Milch",
+                "dativ": "der Milch",
+                "akkusativ": "die Milch"
+            },
+            "plural": null
+        },
+        {
+            "word": "Mond",
+            "wordRu": "луна",
+            "singular": {
+                "nominativ": "der Mond",
+                "genitiv": "des Mondes",
+                "dativ": "dem Mond",
+                "akkusativ": "den Mond"
+            },
+            "plural": {
+                "nominativ": "die Monde",
+                "genitiv": "der Monde",
+                "dativ": "den Monden",
+                "akkusativ": "die Monde"
+            }
+        },
+        {
+            "word": "Motorrad",
+            "wordRu": "мотоцикл",
+            "singular": {
+                "nominativ": "das Motorrad",
+                "genitiv": "des Motorrads",
+                "dativ": "dem Motorrad",
+                "akkusativ": "das Motorrad"
+            },
+            "plural": {
+                "nominativ": "die Motorräder",
+                "genitiv": "der Motorräder",
+                "dativ": "den Motorrädern",
+                "akkusativ": "die Motorräder"
+            }
+        },
+        {
+            "word": "Musik",
+            "wordRu": "музыка",
+            "singular": {
+                "nominativ": "die Musik",
+                "genitiv": "der Musik",
+                "dativ": "der Musik",
+                "akkusativ": "die Musik"
+            },
+            "plural": null
+        },
+        {
+            "word": "Montag",
+            "wordRu": "понедельник",
+            "singular": {
+                "nominativ": "der Montag",
+                "genitiv": "des Montags",
+                "dativ": "dem Montag",
+                "akkusativ": "den Montag"
+            },
+            "plural": {
+                "nominativ": "die Montage",
+                "genitiv": "der Montage",
+                "dativ": "den Montagen",
+                "akkusativ": "die Montage"
+            }
+        },
+        {
+            "word": "Meer",
+            "wordRu": "море",
+            "singular": {
+                "nominativ": "das Meer",
+                "genitiv": "des Meeres",
+                "dativ": "dem Meer",
+                "akkusativ": "das Meer"
+            },
+            "plural": {
+                "nominativ": "die Meere",
+                "genitiv": "der Meere",
+                "dativ": "den Meeren",
+                "akkusativ": "die Meere"
+            }
+        }
+    ],
+    "N": [
+        {
+            "word": "Name",
+            "wordRu": "имя",
+            "singular": {
+                "nominativ": "der Name",
+                "genitiv": "des Namens",
+                "dativ": "dem Namen",
+                "akkusativ": "den Namen"
+            },
+            "plural": {
+                "nominativ": "die Namen",
+                "genitiv": "der Namen",
+                "dativ": "den Namen",
+                "akkusativ": "die Namen"
+            }
+        },
+        {
+            "word": "Nase",
+            "wordRu": "нос",
+            "singular": {
+                "nominativ": "die Nase",
+                "genitiv": "der Nase",
+                "dativ": "der Nase",
+                "akkusativ": "die Nase"
+            },
+            "plural": {
+                "nominativ": "die Nasen",
+                "genitiv": "der Nasen",
+                "dativ": "den Nasen",
+                "akkusativ": "die Nasen"
+            }
+        },
+        {
+            "word": "Nacht",
+            "wordRu": "ночь",
+            "singular": {
+                "nominativ": "die Nacht",
+                "genitiv": "der Nacht",
+                "dativ": "der Nacht",
+                "akkusativ": "die Nacht"
+            },
+            "plural": {
+                "nominativ": "die Nächte",
+                "genitiv": "der Nächte",
+                "dativ": "den Nächten",
+                "akkusativ": "die Nächte"
+            }
+        },
+        {
+            "word": "Nudeln",
+            "wordRu": "макароны",
+            "singular": {
+                "nominativ": "die Nudeln",
+                "genitiv": "der Nudeln",
+                "dativ": "den Nudeln",
+                "akkusativ": "die Nudeln"
+            },
+            "plural": null
+        },
+        {
+            "word": "Nuss",
+            "wordRu": "орех",
+            "singular": {
+                "nominativ": "die Nuss",
+                "genitiv": "der Nuss",
+                "dativ": "der Nuss",
+                "akkusativ": "die Nuss"
+            },
+            "plural": {
+                "nominativ": "die Nüsse",
+                "genitiv": "der Nüsse",
+                "dativ": "den Nüssen",
+                "akkusativ": "die Nüsse"
+            }
+        },
+        {
+            "word": "Nähmaschine",
+            "wordRu": "швейная машина",
+            "singular": {
+                "nominativ": "die Nähmaschine",
+                "genitiv": "der Nähmaschine",
+                "dativ": "der Nähmaschine",
+                "akkusativ": "die Nähmaschine"
+            },
+            "plural": {
+                "nominativ": "die Nähmaschinen",
+                "genitiv": "der Nähmaschinen",
+                "dativ": "den Nähmaschinen",
+                "akkusativ": "die Nähmaschinen"
+            }
+        },
+        {
+            "word": "Notizbuch",
+            "wordRu": "блокнот",
+            "singular": {
+                "nominativ": "das Notizbuch",
+                "genitiv": "des Notizbuchs",
+                "dativ": "dem Notizbuch",
+                "akkusativ": "das Notizbuch"
+            },
+            "plural": {
+                "nominativ": "die Notizbücher",
+                "genitiv": "der Notizbücher",
+                "dativ": "den Notizbüchern",
+                "akkusativ": "die Notizbücher"
+            }
+        },
+        {
+            "word": "Nachricht",
+            "wordRu": "сообщение",
+            "singular": {
+                "nominativ": "die Nachricht",
+                "genitiv": "der Nachricht",
+                "dativ": "der Nachricht",
+                "akkusativ": "die Nachricht"
+            },
+            "plural": {
+                "nominativ": "die Nachrichten",
+                "genitiv": "der Nachrichten",
+                "dativ": "den Nachrichten",
+                "akkusativ": "die Nachrichten"
+            }
+        },
+        {
+            "word": "November",
+            "wordRu": "ноябрь",
+            "singular": {
+                "nominativ": "der November",
+                "genitiv": "des Novembers",
+                "dativ": "dem November",
+                "akkusativ": "den November"
+            },
+            "plural": null
+        },
+        {
+            "word": "Nägel",
+            "wordRu": "гвозди",
+            "singular": {
+                "nominativ": "der Nagel",
+                "genitiv": "des Nagels",
+                "dativ": "dem Nagel",
+                "akkusativ": "den Nagel"
+            },
+            "plural": {
+                "nominativ": "die Nägel",
+                "genitiv": "der Nägel",
+                "dativ": "den Nägeln",
+                "akkusativ": "die Nägel"
+            }
+        }
+    ]
+}

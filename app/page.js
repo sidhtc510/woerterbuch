@@ -35,6 +35,7 @@ const MainWord = ({ letter, words }) => (
 
 export default async function Home() {
   const words = await loadWords();
+  console.log(words);
   return (
     <div>
       {Object.entries(words).map(([letter, wordsArray]) => (
