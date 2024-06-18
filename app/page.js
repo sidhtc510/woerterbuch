@@ -9,7 +9,7 @@ const MainWord = ({ letter, words }) => (
     <h2 className='text-xl font-bold mb-4'>{letter}</h2>
     <div className='flex gap-5'>
       {words.map((wordObj, index) => (
-        <div key={index} className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer">
+        <div key={index} className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none">
           {/* <ModalClient />{`${wordObj.word} ( ${wordObj?.wordRu})`} </ModalClient> */}
           <WordModal wordObj={wordObj} />
           {/* <div className="singular">
