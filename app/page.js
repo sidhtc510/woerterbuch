@@ -1,6 +1,7 @@
 import React from 'react';
 import { loadWords } from "./fetches";
 import WordModal from './components/WordModal';
+import SearchBar from './components/SearchBar';
 
 
 
@@ -29,6 +30,7 @@ const MainWord = ({ letter, words }) => (
         </div>
       ))}
     </div>
+    <SearchBar />
   </div>
 );
 
