@@ -8,11 +8,7 @@
   box-sizing: border-box;
 }
 
-.grid_words {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-}
+
 
 /* global.css */
 /* .modal {
