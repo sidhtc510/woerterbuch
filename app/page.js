@@ -2,6 +2,7 @@ import React from 'react';
 import { loadWords } from "./fetches";
 import WordModal from './components/WordModal';
 import SearchBar from './components/SearchBar';
+import Link from 'next/link';
 
 
 
@@ -30,21 +31,24 @@ const MainWord = ({ letter, words }) => (
         </div>
       ))}
     </div>
-    <SearchBar />
   </div>
 );
 
 
 export default async function Home() {
   const words = await loadWords();
-  console.log(words);
+
   return (
-    <div>
-      {Object.entries(words).map(([letter, wordsArray]) => (
-        (letter !== '_id' && wordsArray.length > 0) && (
-          <MainWord key={letter} letter={letter} words={wordsArray} />
-        )
-      ))}
-    </div>
+    <>
+      <div className='pb-40'>
+        <Link href={'/addword'} className='w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block'>Add Word</Link>
+        {Object.entries(words).map(([letter, wordsArray]) => (
+          (letter !== '_id' && wordsArray.length > 0) && (
+            <MainWord key={letter} letter={letter} words={wordsArray} />
+          )
+        ))}
+      </div>
+      <SearchBar />
+    </>
   );
 }

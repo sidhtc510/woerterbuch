@@ -2004,7 +2004,12 @@
                 "dativ": "dem Mädchen",
                 "akkusativ": "das Mädchen"
             },
-            "plural": null
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
         },
         {
             "word": "Markt",
@@ -2047,7 +2052,12 @@
                 "dativ": "der Milch",
                 "akkusativ": "die Milch"
             },
-            "plural": null
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
         },
         {
             "word": "Mond",
@@ -2090,7 +2100,12 @@
                 "dativ": "der Musik",
                 "akkusativ": "die Musik"
             },
-            "plural": null
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
         },
         {
             "word": "Montag",
@@ -2183,7 +2198,12 @@
                 "dativ": "den Nudeln",
                 "akkusativ": "die Nudeln"
             },
-            "plural": null
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
         },
         {
             "word": "Nuss",
@@ -2258,7 +2278,12 @@
                 "dativ": "dem November",
                 "akkusativ": "den November"
             },
-            "plural": null
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
         },
         {
             "word": "Nägel",
@@ -2276,5 +2301,198 @@
                 "akkusativ": "die Nägel"
             }
         }
-    ]
+    ],
+    "O": [
+        {
+            "word": "Oma",
+            "wordRu": "бабушка",
+            "singular": {
+                "nominativ": "die Oma",
+                "genitiv": "der Oma",
+                "dativ": "der Oma",
+                "akkusativ": "die Oma"
+            },
+            "plural": {
+                "nominativ": "die Omas",
+                "genitiv": "der Omas",
+                "dativ": "den Omas",
+                "akkusativ": "die Omas"
+            }
+        },
+        {
+            "word": "Onkel",
+            "wordRu": "дядя",
+            "singular": {
+                "nominativ": "der Onkel",
+                "genitiv": "des Onkels",
+                "dativ": "dem Onkel",
+                "akkusativ": "den Onkel"
+            },
+            "plural": {
+                "nominativ": "die Onkel",
+                "genitiv": "der Onkel",
+                "dativ": "den Onkeln",
+                "akkusativ": "die Onkel"
+            }
+        },
+        {
+            "word": "Ohr",
+            "wordRu": "ухо",
+            "singular": {
+                "nominativ": "das Ohr",
+                "genitiv": "des Ohres",
+                "dativ": "dem Ohr",
+                "akkusativ": "das Ohr"
+            },
+            "plural": {
+                "nominativ": "die Ohren",
+                "genitiv": "der Ohren",
+                "dativ": "den Ohren",
+                "akkusativ": "die Ohren"
+            }
+        },
+        {
+            "word": "Orange",
+            "wordRu": "апельсин",
+            "singular": {
+                "nominativ": "die Orange",
+                "genitiv": "der Orange",
+                "dativ": "der Orange",
+                "akkusativ": "die Orange"
+            },
+            "plural": {
+                "nominativ": "die Orangen",
+                "genitiv": "der Orangen",
+                "dativ": "den Orangen",
+                "akkusativ": "die Orangen"
+            }
+        },
+        {
+            "word": "Obst",
+            "wordRu": "фрукты",
+            "singular": {
+                "nominativ": "das Obst",
+                "genitiv": "des Obsts",
+                "dativ": "dem Obst",
+                "akkusativ": "das Obst"
+            },
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
+        },
+        {
+            "word": "Oktober",
+            "wordRu": "октябрь",
+            "singular": {
+                "nominativ": "der Oktober",
+                "genitiv": "des Oktobers",
+                "dativ": "dem Oktober",
+                "akkusativ": "den Oktober"
+            },
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
+        },
+        {
+            "word": "Oper",
+            "wordRu": "опера",
+            "singular": {
+                "nominativ": "die Oper",
+                "genitiv": "der Oper",
+                "dativ": "der Oper",
+                "akkusativ": "die Oper"
+            },
+            "plural": {
+                "nominativ": "die Opern",
+                "genitiv": "der Opern",
+                "dativ": "den Opern",
+                "akkusativ": "die Opern"
+            }
+        },
+        {
+            "word": "Öl",
+            "wordRu": "масло",
+            "singular": {
+                "nominativ": "das Öl",
+                "genitiv": "des Öls",
+                "dativ": "dem Öl",
+                "akkusativ": "das Öl"
+            },
+            "plural": {
+                "nominativ": "die Öle",
+                "genitiv": "der Öle",
+                "dativ": "den Ölen",
+                "akkusativ": "die Öle"
+            }
+        },
+        {
+            "word": "Ofen",
+            "wordRu": "печь",
+            "singular": {
+                "nominativ": "der Ofen",
+                "genitiv": "des Ofens",
+                "dativ": "dem Ofen",
+                "akkusativ": "den Ofen"
+            },
+            "plural": {
+                "nominativ": "die Öfen",
+                "genitiv": "der Öfen",
+                "dativ": "den Öfen",
+                "akkusativ": "die Öfen"
+            }
+        },
+        {
+            "word": "Osten",
+            "wordRu": "восток",
+            "singular": {
+                "nominativ": "der Osten",
+                "genitiv": "des Ostens",
+                "dativ": "dem Osten",
+                "akkusativ": "den Osten"
+            },
+            "plural": {
+                "nominativ": "-",
+                "genitiv": "-",
+                "dativ": "-",
+                "akkusativ": "-"
+            }
+        }
+    ],
+    "P": [],
+    "Q": [],
+    "R": [],
+    "S": [],
+    "T": [],
+    "U": [],
+    "V": [],
+    "W": [],
+    "X": [
+        {
+            "word": "Xylophon",
+            "wordRu": "Ксилофон",
+            "singular": {
+                "nominativ": "das Xylophon",
+                "genitiv": "des Xylophons",
+                "dativ": "dem Xylophon",
+                "akkusativ": "das Xylophon"
+            },
+            "plural": {
+                "nominativ": "die Xylophone",
+                "genitiv": "der Xylophone",
+                "dativ": "den Xylophonen",
+                "akkusativ": "die Xylophone"
+            },
+            "_id": {
+                "$oid": "66732fea2f68b7d5c4c9715e"
+            }
+        }
+    ],
+    "Y": [],
+    "Z": []
 }
