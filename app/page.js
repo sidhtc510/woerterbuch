@@ -12,22 +12,7 @@ const MainWord = ({ letter, words }) => (
     <div className="flex gap-5 flex-wrap">
       {words.map((wordObj, index) => (
         <div key={index} className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none">
-          {/* <ModalClient />{`${wordObj.word} ( ${wordObj?.wordRu})`} </ModalClient> */}
           <WordModal wordObj={wordObj} />
-          {/* <div className="singular">
-          <h4>Singular</h4>
-          <p>Nominativ: {wordObj.singular.nominativ}</p>
-          <p>Genitiv: {wordObj.singular.genitiv}</p>
-          <p>Dativ: {wordObj.singular.dativ}</p>
-          <p>Akkusativ: {wordObj.singular.akkusativ}</p>
-          </div>
-          <div className="plural">
-          <h4>Plural</h4>
-          <p>Nominativ: {wordObj.plural.nominativ}</p>
-          <p>Genitiv: {wordObj.plural.genitiv}</p>
-          <p>Dativ: {wordObj.plural.dativ}</p>
-          <p>Akkusativ: {wordObj.plural.akkusativ}</p>
-          </div> */}
         </div>
       ))}
     </div>

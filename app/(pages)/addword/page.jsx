@@ -1,10 +1,11 @@
 'use client'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation';
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function AddWord() {
     const router = useRouter();
+    const [mainWord, setMainWord] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -33,11 +34,11 @@ export default function AddWord() {
                 akkusativ: `${formData.akkusativ_plur.length === 0 ? '-' : 'die'} ${formData.akkusativ_plur}`
             }
         }
-        
-        
+
+
 
         try {
-            const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL+'/api/words', {
+            const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/words', {
                 method: 'POST',
                 headers: { 'Content-type': 'application/json' },
                 body: JSON.stringify(formedObj)
@@ -68,10 +69,10 @@ export default function AddWord() {
                 <form className="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
                     <div className="flex flex-wrap -mx-4 mb-8">
                         <div className=" w-1/2 px-3 mb-3">
-                            <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="word">
+                            <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="word" >
                                 Word (without artikle!)
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="word" type="text" placeholder="Word " name="word" />
+                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="word" type="text" placeholder="Word " name="word" onChange={(e) => setMainWord(e.target.value)}/>
                             {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                         </div>
                         <div className=" w-1/2 px-3">
@@ -104,13 +105,13 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="nom_sing">
                                 Singular
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="nominativ_sing" name="nominativ_sing" type="text" placeholder="Singular" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="nominativ_sing" name="nominativ_sing" type="text" placeholder="Singular" />
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="nom_plur">
                                 Plural
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="nominativ_plur" name="nominativ_plur" type="text" placeholder="Plural" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="nominativ_plur" name="nominativ_plur" type="text" placeholder="Plural" />
                         </div>
                     </div>
 
@@ -136,13 +137,13 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="gen_sing">
                                 Singular
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="gen_sing" name="genitiv_sing" type="text" placeholder="Singular" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="gen_sing" name="genitiv_sing" type="text" placeholder="Singular" />
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="gen_plur">
                                 Plural
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="gen_plur" name="genitiv_plur" type="text" placeholder="Plural" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="gen_plur" name="genitiv_plur" type="text" placeholder="Plural" />
                         </div>
                     </div>
 
@@ -170,13 +171,13 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="dativ_sing">
                                 Singular
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="dativ_sing" name="dativ_sing" type="text" placeholder="Singular" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="dativ_sing" name="dativ_sing" type="text" placeholder="Singular" />
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="dativ_plur">
                                 Plural
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="dativ_plur" name="dativ_plur" type="text" placeholder="Plural" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="dativ_plur" name="dativ_plur" type="text" placeholder="Plural" />
                         </div>
                     </div>
 
@@ -204,13 +205,13 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="akkusativ_sing">
                                 Singular
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="akkusativ_sing" name="akkusativ_sing" type="text" placeholder="Singular" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="akkusativ_sing" name="akkusativ_sing" type="text" placeholder="Singular" />
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="akkusativ_plur">
                                 Plural
                             </label>
-                            <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="akkusativ_plur" name="akkusativ_plur" type="text" placeholder="Plural" />
+                            <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="akkusativ_plur" name="akkusativ_plur" type="text" placeholder="Plural" />
                         </div>
                     </div>
                     <input type="submit" defaultValue="Save" className='w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block' />
