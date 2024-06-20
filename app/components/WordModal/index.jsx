@@ -22,7 +22,7 @@ export default function WordModal({ wordObj }) {
 
             {isModalOpen && (
                 <div className={`bg-indigo-900 bg-opacity-40 backdrop-blur-md fixed inset-0 z-20 overflow-auto flex`} onClick={handleCloseModal}>
-                    <div className="bg-indigo-600 m-auto border border-indigo-800 w-5/5 rounded-lg shadow"> {/* my-16 p-5 */}
+                    <div className="bg-indigo-600 m-auto border border-indigo-800 w-5/5 rounded-lg shadow text-white"> {/* my-16 p-5 */}
                         <h2 className='text-xl p-5'>{`${wordObj.word} (${wordObj.wordRu})`}</h2>
                         {/* <table className='table-auto border border-slate-400 border-separate border-spacing-2'> */}
                         <table className='table-auto w-full border-collapse'>
