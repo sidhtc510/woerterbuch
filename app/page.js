@@ -1,10 +1,9 @@
+'use client'
 import React from 'react';
 import { loadWords } from "./fetches";
 import WordModal from './components/WordModal';
 import SearchBar from './components/SearchBar';
 import Link from 'next/link';
-
-
 
 const MainWord = ({ letter, words }) => (
   <div className="mb-8">
@@ -18,7 +17,6 @@ const MainWord = ({ letter, words }) => (
     </div>
   </div>
 );
-
 
 export default async function Home() {
   const words = await loadWords();
