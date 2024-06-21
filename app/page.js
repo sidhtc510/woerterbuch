@@ -1,4 +1,3 @@
-'use client'
 import React from 'react';
 import { loadWords } from "./fetches";
 import WordModal from './components/WordModal';
@@ -21,7 +20,10 @@ const MainWord = ({ letter, words }) => (
 );
 
 export default async function Home() {
+
+
   const words = await loadWords();
+
 
   return (
     <>
@@ -29,9 +31,7 @@ export default async function Home() {
         <Link href={'/addword'} className='w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block'>Add Word</Link>
         {Object.entries(words).map(([letter, wordsArray]) => (
           (letter !== '_id' && wordsArray.length > 0) && (
-            <>
-              <MainWord key={letter} letter={letter} words={wordsArray} />
-            </>
+            <MainWord key={letter} letter={letter} words={wordsArray} />
           )
         ))}
       </div>
