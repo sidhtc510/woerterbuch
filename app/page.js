@@ -1,6 +1,6 @@
 import React from 'react';
 import { loadWords } from "./fetches";
-import WordModal from './components/WordModal';
+import Word from './components/Word';
 import SearchBar from './components/SearchBar';
 import Link from 'next/link';
 
@@ -9,7 +9,7 @@ const MainWord = ({ letter, words }) => (
     <div className="mb-8">
       <h2 className='text-xl font-bold mb-4'>{letter}</h2>
       <div className="flex gap-5 flex-wrap">
-        {words.map((wordObj, index) => <WordModal key={index} wordObj={wordObj} />)}
+        {words.map((wordObj, index) => <Word key={index} wordObj={wordObj} />)}
       </div>
     </div>
   </>

@@ -61,8 +61,6 @@ export default function AddWord() {
             }
         }
 
-
-
         try {
             const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/words', {
                 method: 'POST',
@@ -81,16 +79,11 @@ export default function AddWord() {
         } catch (error) {
             console.log('error AddWord in page', error);
         }
-
-
-
-
     }
 
     return (
         <div>
             <Link href='/' className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">Main page</Link>
-
             <div className='m-3'>
                 <form className="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
                     <div className="flex flex-wrap -mx-4 mb-8">
@@ -112,7 +105,6 @@ export default function AddWord() {
                                 </label>
                                 <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="word" type="text" placeholder="Word " name="word" onChange={(e) => setMainWord(e.target.value)} />
                             </div>
-                            {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                             <div className=" w-full px-3">
                                 <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="ruword">
                                     Ru Word translation
@@ -128,7 +120,6 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-m mb-2" htmlFor="grid-state">
                                 Nominativ
                             </label>
-
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="nom_sing">
@@ -151,16 +142,6 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-m mb-2" htmlFor="grid-state">
                                 Genitiv
                             </label>
-                            {/* <div className="relative">
-                                <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name="genitiv_artikle">
-                                    <option selected disabled>Artikel</option>
-                                    <option defaultValue="der">der</option>
-                                    <option defaultValue="des">des</option>
-                                </select>
-                                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
-                                </div>
-                            </div> */}
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="gen_sing">
@@ -184,17 +165,6 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-m mb-2" htmlFor="grid-state">
                                 Dativ
                             </label>
-                            {/* <div className="relative">
-                                <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name="dativ_artikle">
-                                    <option selected disabled>Artikel</option>
-                                    <option defaultValue="dem">dem</option>
-                                    <option defaultValue="der">der</option>
-                                    <option defaultValue="den">den</option>
-                                </select>
-                                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
-                                </div>
-                            </div> */}
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="dativ_sing">
@@ -218,17 +188,6 @@ export default function AddWord() {
                             <label className="block uppercase tracking-wide text-gray-700 text-m mb-2" htmlFor="grid-state">
                                 Akkusativ
                             </label>
-                            {/* <div className="relative">
-                                <select className="block appearance-none w-full  bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name="akkusativ_artikle">
-                                    <option selected disabled>Artikel</option>
-                                    <option defaultValue="den">den</option>
-                                    <option defaultValue="das">das</option>
-                                    <option defaultValue="die">die</option>
-                                </select>
-                                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
-                                </div>
-                            </div> */}
                         </div>
                         <div className="ms:w-1/2 md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="akkusativ_sing">
