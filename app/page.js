@@ -12,7 +12,7 @@ const MainWord = ({ letter, words }) => (
       <h2 className='text-xl font-bold mb-4'>{letter}</h2>
       <div className="flex gap-5 flex-wrap">
         {words.map((wordObj, index) => (
-          <div key={index} className={`w-fit pointer-events-auto rounded-md px-3 py-2 text-[0.8125rem] font-semibold leading-5  cursor-pointer border border-gray-600 select-none ${wordObj.singular.nominativ.substr(0, 3) === 'der' ? 'bg-indigo-300' : wordObj.singular.nominativ.substr(0, 3) === 'die' ? 'bg-red-300' : 'bg-emerald-300'}`}>
+          <div key={index} className={`w-fit pointer-events-auto rounded-md px-3 py-2 text-[0.8125rem] font-semibold leading-5  cursor-pointer  select-none ${wordObj.singular.nominativ.substr(0, 3) === 'der' ? 'bg-indigo-300' : wordObj.singular.nominativ.substr(0, 3) === 'die' ? 'bg-red-300' : 'bg-emerald-300'}`}>
             <WordModal wordObj={wordObj} />
           </div>
         ))}
