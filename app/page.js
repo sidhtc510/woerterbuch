@@ -7,7 +7,6 @@ import Link from 'next/link';
 
 const MainWord = ({ letter, words }) => (
   <>
-
     <div className="mb-8">
       <h2 className='text-xl font-bold mb-4'>{letter}</h2>
       <div className="flex gap-5 flex-wrap">
@@ -28,8 +27,6 @@ export default async function Home() {
     <>
       <div className='pb-40'>
         <Link href={'/addword'} className='w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block'>Add Word</Link>
-
-
         {Object.entries(words).map(([letter, wordsArray]) => (
           (letter !== '_id' && wordsArray.length > 0) && (
             <>
