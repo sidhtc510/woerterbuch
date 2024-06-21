@@ -16,10 +16,7 @@ const MainWord = ({ letter, words }) => (
 );
 
 export default async function Home() {
-
-
   const words = await loadWords();
-
 
   return (
     <>
