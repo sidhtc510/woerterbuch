@@ -2,11 +2,10 @@ import React from 'react';
 import { loadWords } from "./fetches";
 import Word from './components/Word';
 import SearchBar from './components/SearchBar';
-import Link from 'next/link';
 
 const MainWord = ({ letter, words }) => (
   <>
-    <div className="mb-8 px-12">
+    <div className="mb-8 px-4 md:px-12">
       <h2 className='text-xl font-bold mb-4 px-12' id={`${letter}_ankor`}>{letter}</h2>
       <div className="flex gap-5 flex-wrap">
         {words.map((wordObj, index) => <Word key={index} wordObj={wordObj} />)}
@@ -30,8 +29,6 @@ export default async function Home() {
             )
           ))}
         </div>
-
-        {/* <Link href={'/addword'} className='w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block'>Add Word</Link> */}
 
         {Object.entries(words).map(([letter, wordsArray]) => (
           (letter !== '_id' && wordsArray.length > 0) && (
