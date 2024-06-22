@@ -10,8 +10,10 @@ export default function NavBar() {
                     Wörterbuch
                 </Link>
             </div>
-            <div>
-
+            <div className='flex justify-center gap-1'>
+                <div className='rounded-lg p-1 text-sm text-white bg-indigo-300'> der</div>
+                <div className='rounded-lg p-1 text-sm text-white bg-red-300'> die</div>
+                <div className='rounded-lg p-1 text-sm text-white bg-emerald-300'> das</div>
             </div>
             <MobileMenu />
         </div>
