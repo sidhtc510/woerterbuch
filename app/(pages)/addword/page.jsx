@@ -167,7 +167,7 @@ export default function AddWord() {
                             </label>
                         </div>
                         <div className="w-full md:w-1/3 px-3">
-                            <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="dativ_sing">
+                            <label className="block uppercase tracking-wide text-gray-700 text-xs mb-2" htmlFor="dativ_sing">
                                 Singular
                             </label>
                             <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="dativ_sing" name="dativ_sing" type="text" placeholder="Singular" />
