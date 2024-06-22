@@ -121,13 +121,13 @@ export default function AddWord() {
                                 Nominativ
                             </label>
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="nom_sing">
                                 Singular
                             </label>
                             <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="nominativ_sing" name="nominativ_sing" type="text" placeholder="Singular" />
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="nom_plur">
                                 Plural
                             </label>
@@ -143,13 +143,13 @@ export default function AddWord() {
                                 Genitiv
                             </label>
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="gen_sing">
                                 Singular
                             </label>
                             <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="gen_sing" name="genitiv_sing" type="text" placeholder="Singular" />
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="gen_plur">
                                 Plural
                             </label>
@@ -166,13 +166,13 @@ export default function AddWord() {
                                 Dativ
                             </label>
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="dativ_sing">
                                 Singular
                             </label>
                             <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="dativ_sing" name="dativ_sing" type="text" placeholder="Singular" />
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="dativ_plur">
                                 Plural
                             </label>
@@ -189,13 +189,13 @@ export default function AddWord() {
                                 Akkusativ
                             </label>
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="akkusativ_sing">
                                 Singular
                             </label>
                             <input defaultValue={mainWord} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="akkusativ_sing" name="akkusativ_sing" type="text" placeholder="Singular" />
                         </div>
-                        <div className="ms:w-1/2 md:w-1/3 px-3">
+                        <div className="w-full md:w-1/3 px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs  mb-2" htmlFor="akkusativ_plur">
                                 Plural
                             </label>
