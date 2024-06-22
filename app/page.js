@@ -20,7 +20,7 @@ export default async function Home() {
 
   return (
     <>
-      <div className='pb-40'>
+      <div className='pb-40 bg-slate-200'>
         <div className='alphabet_navigation bg-indigo-300 text-2xl flex gap-4 flex-wrap w-full top-0 p-4'>
           {Object.entries(words).map(([letter]) => (
             (letter !== '_id') && (
