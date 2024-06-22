@@ -83,7 +83,7 @@ export default function AddWord() {
 
     return (
         <div>
-            <Link href='/' className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">Main page</Link>
+            {/* <Link href='/' className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">Main page</Link> */}
             <div className='m-3'>
                 <form className="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
                     <div className="flex flex-wrap -mx-4 mb-8">
