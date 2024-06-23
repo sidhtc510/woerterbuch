@@ -12,9 +12,9 @@ export default function MobileMenu() {
     return (
         <>
             <div onClick={() => setIsOpen(prev => !prev)} className={`flex flex-col cursor-pointer ${isOpen ? "gap-[4.5px]" : "gap-[5px]"}`}>
-                <div className={`w-6 h-1 bg-indigo-600 rounded-sm origin-left ease-in-out duration-200 ${isOpen ? "rotate-45" : ""}`} />
-                <div className={`w-6 h-1 bg-indigo-600 rounded-sm ease-in-out duration-200 ${isOpen ? "opacity-0" : ""}`} />
-                <div className={`w-6 h-1 bg-indigo-600 rounded-sm origin-left ease-in-out duration-200 ${isOpen ? "-rotate-45" : ""}`} />
+                <div className={`w-6 h-1 bg-indigo-600 rounded-sm origin-left ease-in-out duration-100 ${isOpen ? "rotate-45" : ""}`} />
+                <div className={`w-6 h-1 bg-indigo-600 rounded-sm ease-in-out duration-100 ${isOpen ? "opacity-0" : ""}`} />
+                <div className={`w-6 h-1 bg-indigo-600 rounded-sm origin-left ease-in-out duration-100 ${isOpen ? "-rotate-45" : ""}`} />
             </div>
 
             <div className={`fixed w-full left-0 top-24 h-[calc(100vh-96px)] bg-slate-200 flex flex-col items-center justify-center gap-8 z-20 ${isOpen ? 'visible opacity-100' : 'invisible opacity-0'} ease-in-out duration-500 `}>

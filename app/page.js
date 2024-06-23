@@ -2,6 +2,7 @@ import React from 'react';
 import { loadWords } from "./fetches";
 import Word from './components/Word';
 import SearchBar from './components/SearchBar';
+import TestComp from './components/TestComp';
 
 const MainWord = ({ letter, words }) => (
   <>
@@ -19,6 +20,7 @@ export default async function Home() {
 
   return (
     <>
+      {/* <TestComp /> */}
       <div className='pb-40 bg-slate-200'>
         <div className='alphabet_navigation bg-indigo-300 text-2xl flex gap-4 flex-wrap w-full top-0 p-4'>
           {Object.entries(words).map(([letter]) => (
