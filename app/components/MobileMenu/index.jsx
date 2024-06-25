@@ -18,7 +18,7 @@ export default function MobileMenu() {
             </div>
 
             <div className={`fixed w-full left-0 top-24 h-[calc(100vh-96px)] bg-slate-200 flex flex-col items-center justify-center gap-8 z-20 ${isOpen ? 'visible opacity-100' : 'invisible opacity-0'} ease-in-out duration-500 `}>
-                <Link href={'/addword'} onClick={handleLinkClick} className='w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block'>Add Word</Link>
+                <Link href={'/addword'} onClick={handleLinkClick} className='w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block'>ein neues Wort hinzufügen</Link>
             </div>
         </>
     )
