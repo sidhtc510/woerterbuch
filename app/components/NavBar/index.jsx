@@ -8,12 +8,14 @@ import Link from 'next/link'
 
 export default function NavBar() {
     const dispatch = useDispatch();
+
     return (
         <div className='h-24 flex justify-between items-center px-4 md:px-12 bg-slate-200'>
             <div >
-                <Link href={"/"} className='text-xl text-indigo-600 font-semibold'>
+                <Link href='/' className='text-xl text-indigo-600 font-semibold cursor-pointer'>
                     Wörterbuch
                 </Link>
+                {/* <Link href='testPage'>testPage</Link> */}
             </div>
             <div className=''>
                 <p className='text-xs'> Artikelfilterung </p>
