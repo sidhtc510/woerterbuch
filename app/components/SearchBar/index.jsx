@@ -7,10 +7,8 @@ export default function SearchBar() {
     const dispatch = useDispatch();
 
     const handleSearch = (event) => {
-
         dispatch(search(event.target.value));
     };
-
 
     return (
         <div className=' fixed w-full bg-indigo-300 z-10 bottom-0 border border-indigo-600 p-5'>

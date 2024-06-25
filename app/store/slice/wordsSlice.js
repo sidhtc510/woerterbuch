@@ -27,7 +27,6 @@ const wordsSlice = createSlice({
     reducers: {
         initializinState(state, action) {
             return state = { ...state, originalList: action.payload, list: action.payload }
-            // return state = action.payload
         },
         filterByArticle(state, action) {
             const article = action.payload;
@@ -36,7 +35,7 @@ const wordsSlice = createSlice({
             } else {
                 const filteredList = {};
                 for (const [letter, wordsArray] of Object.entries(state.originalList)) {
-                    if (Array.isArray(wordsArray)) { // Проверка на массив
+                    if (Array.isArray(wordsArray)) {
                         const filteredWords = wordsArray.filter(({ singular }) =>
                             singular.nominativ.startsWith(article)
                         );
@@ -51,13 +50,11 @@ const wordsSlice = createSlice({
         search(state, action) {
             const searchTerm = action.payload.toLowerCase();
             if (searchTerm === "") {
-                // Если строка поиска пуста, вернуть оригинальный список
                 state.list = state.originalList;
             } else {
-                // Фильтрация слов по `word` и `wordRu`
                 const filteredList = {};
                 for (const [letter, wordsArray] of Object.entries(state.originalList)) {
-                    if (Array.isArray(wordsArray)) { // Проверка на массив
+                    if (Array.isArray(wordsArray)) {
                         const filteredWords = wordsArray.filter(({ word, wordRu }) =>
                             word.toLowerCase().includes(searchTerm) ||
                             wordRu.toLowerCase().includes(searchTerm)

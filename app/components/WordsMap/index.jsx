@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import Word from '../Word';
 import SearchBar from '../SearchBar';
 import { useDispatch, useSelector } from 'react-redux';
@@ -18,13 +18,12 @@ const MainWord = ({ letter, words }) => (
 
 export default function WordsMap({ words }) {
     const dispatch = useDispatch();
-    const [wordsState, setWordsState] = useState(words)
-    useEffect(() => {
-        dispatch(initializinState(wordsState))
-    }, [wordsState])
 
-    const wordsRedux = useSelector(state => state.words)
-// console.log('wordsRedux', wordsRedux);
+    useEffect(() => {
+        dispatch(initializinState(words))
+    }, [words])
+
+    const wordsRedux = useSelector(state => state.words);
 
     return (
         <>

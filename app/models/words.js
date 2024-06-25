@@ -53,7 +53,6 @@ const AlphabetSchema = new Schema({
   Z: [WordSchema]
 }, { minimize: false }); // minimize: false чтобы не удалять пустые объекты, strict: false чтобы позволить любые поля
 
-// Создание модели
 const Words = mongoose.models.words || mongoose.model('words', AlphabetSchema);
 
 module.exports = Words;
