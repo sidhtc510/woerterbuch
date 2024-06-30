@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.14.0",
     "@reduxjs/toolkit": "^2.2.5",
     "dotenv": "^16.4.5",
     "mongoose": "^8.4.1",

@@ -1,9 +1,7 @@
 'use client'
 import React from 'react'
 import MobileMenu from '../MobileMenu'
-
-import { useDispatch } from 'react-redux'
-// import { filterByArticle } from '@/app/store/slice/wordsSlice'
+import { PiMagicWand } from "react-icons/pi";
 import Link from 'next/link'
 
 export default function NavBar() {
@@ -11,11 +9,13 @@ export default function NavBar() {
 
     return (
         <div className='h-24 flex justify-between items-center px-4 md:px-12 bg-slate-200'>
-            <div >
+            <div className='flex items-center'>
                 <Link href='/' className='text-xl text-indigo-600 font-semibold cursor-pointer'>
                     Wörterbuch
                 </Link>
                 {/* <Link href='testPage'>testPage</Link> */}
+                <p className='pl-2'>+</p>
+                <Link href={'/ai-generator'} className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3'>AI Generator <PiMagicWand className="text-orange-600 text-lg" /></Link>
             </div>
             {/* <div className=''>
                 <p className='text-xs'> Artikelfilterung </p>

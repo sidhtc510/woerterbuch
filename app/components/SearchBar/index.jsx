@@ -19,8 +19,7 @@ export default function SearchBar() {
             </div>
             <div className='fixed bottom-0 w-full text-sm font-thin bg-gray-300 text-gray-500 flex align-middle justify-center p-2'>
                 Developed by
-                <Link className='text-gray-500 underline cursor-pointer font-normal pl-1 flex align-bottom relative' href='https://www.linkedin.com/in/sidhtc510/'>
-                    <PiInfinityThin className='mt-[3px] ' /> a$id
+                <Link className='text-gray-500 underline cursor-pointer font-normal pl-1 flex align-bottom relative' href='https://www.linkedin.com/in/sidhtc510/'> a$id
                 </Link>
             </div>
         </>
