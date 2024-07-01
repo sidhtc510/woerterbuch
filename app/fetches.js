@@ -19,7 +19,7 @@ export const loadWords = async () => {
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-export default async function handler(req, res) {
+export default async function aiHandler(req, res) {
     const genAI = new GoogleGenerativeAI(
         process.env.NEXT_PUBLIC_GEMINI_API_KEY
     );
@@ -40,7 +40,7 @@ export default async function handler(req, res) {
                 role: "user",
                 parts: [
                     {
-                        text: "я даю слово на немецком языке.  тебе нужно поставить ему правильный артикль в разных падежах в единственном и множественном числе.  и оформить его в объект. вот пример объекта. строго следуй его структуре. ничего не убирай и ничего лишнего не дописывай.  Если у слова нет множественного числа, проставь \"-\"\n{\"word\":\"Ofen\",\"wordRu\":\"печь\",\"singular\":{\"nominativ\":\"der Ofen\",\"genitiv\":\"des Ofens\",\"dativ\":\"dem Ofen\",\"akkusativ\":\"den Ofen\"},\"plural\":{\"nominativ\":\"die Öfen\",\"genitiv\": \"der Öfen\",\"dativ\":\"den Öfen\",\"akkusativ\":\"die Öfen\"}},"
+                        text: "я даю слово на немецком языке.  тебе нужно поставить ему правильный артикль в разных падежах в единственном и множественном числе.  и оформить его в объект. вот пример объекта. строго следуй его структуре. ничего не убирай и ничего лишнего не дописывай.  Если у слова нет множественного числа, проставь \"-\", ты должен обрабатывать только существительные, иначе возвращай вместо объекта false \n{\"word\":\"Ofen\",\"wordRu\":\"печь\",\"singular\":{\"nominativ\":\"der Ofen\",\"genitiv\":\"des Ofens\",\"dativ\":\"dem Ofen\",\"akkusativ\":\"den Ofen\"},\"plural\":{\"nominativ\":\"die Öfen\",\"genitiv\": \"der Öfen\",\"dativ\":\"den Öfen\",\"akkusativ\":\"die Öfen\"}},"
                     },
                 ],
             },

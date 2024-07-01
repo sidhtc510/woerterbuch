@@ -15,7 +15,7 @@ export default function NavBar() {
                 </Link>
                 {/* <Link href='testPage'>testPage</Link> */}
                 <p className='pl-2'>+</p>
-                <Link href={'/ai-generator'} className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3'>AI Generator <PiMagicWand className="text-orange-600 text-lg" /></Link>
+                <p className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white select-none m-3'>AI Generator <PiMagicWand className="text-orange-600 text-lg" /></p>
             </div>
             {/* <div className=''>
                 <p className='text-xs'> Artikelfilterung </p>
