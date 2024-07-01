@@ -3,8 +3,13 @@
 
 import { useState } from 'react';
 import WordModal from '../WordModal';
+// import { useDispatch, useSelector } from 'react-redux';
+// import wordModalSlice from '@/app/store/slice/wordModalSlice';
+// import { modalIsOpenReducer } from '@/app/store/slice/wordModalSlice';
+
 
 export default function Word({ wordObj }) {
+
     const [isModalOpen, setModalOpen] = useState(false);
 
     const handleOpenModal = () => {
@@ -13,7 +18,10 @@ export default function Word({ wordObj }) {
 
     const handleCloseModal = () => {
         setModalOpen(false);
+
     };
+
+
 
     return (
         <>
@@ -21,7 +29,7 @@ export default function Word({ wordObj }) {
                 {`${wordObj.word} (${wordObj.wordRu})`}
             </div>
 
-            {isModalOpen && <WordModal {...{wordObj, handleCloseModal }} />}
+            {isModalOpen && <WordModal {...{ wordObj, handleCloseModal }} />}
         </>
     );
 }

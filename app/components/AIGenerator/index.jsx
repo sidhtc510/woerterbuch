@@ -9,6 +9,12 @@ export default function Home() {
     const [story, setStory] = useState("");
     const [loading, setLoading] = useState(false);
 
+    const handleClose = () => {
+        setStory(false);
+        setWord("");
+    };
+
+
     const handleWordChange = (event) => {
         setWord(event.target.value);
     };
@@ -44,7 +50,7 @@ export default function Home() {
                 {loading ? <p className=" text-gray-400">Generating...</p> : (<p className="flex items-center gap-1">Generate word <PiMagicWand className="text-orange-600 text-lg" /></p>)}
             </button>
 
-            {story && <WordModal wordObj={story} handleCloseModal={true} />}
+            {story && <WordModal wordObj={story} handleCloseModal={handleClose} />}
         </div>
     );
 }

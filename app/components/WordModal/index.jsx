@@ -17,23 +17,23 @@ export default function WordModal({wordObj, handleCloseModal}) {
                     <tbody className='border border-indigo-800'>
                         <tr className='border border-indigo-800'>
                             <td className='text-sm bg-indigo-700 p-2'>Nominativ</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.singular.nominativ}</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.plural.nominativ}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.singular?.nominativ}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.plural?.nominativ}</td>
                         </tr>
                         <tr className='border border-indigo-800'>
                             <td className='text-sm bg-indigo-700 p-2'>Genitiv</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.singular.genitiv}</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.plural.genitiv}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.singular?.genitiv}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.plural?.genitiv}</td>
                         </tr>
                         <tr className='border border-indigo-800'>
                             <td className='text-sm bg-indigo-700 p-2'>Dativ</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.singular.dativ}</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.plural.dativ}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.singular?.dativ}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.plural?.dativ}</td>
                         </tr>
                         <tr className='border border-indigo-800'>
                             <td className='text-sm bg-indigo-700 p-2'>Akkusativ</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.singular.akkusativ}</td>
-                            <td className='border border-indigo-800 p-2'>{wordObj.plural.akkusativ}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.singular?.akkusativ}</td>
+                            <td className='border border-indigo-800 p-2'>{wordObj.plural?.akkusativ}</td>
                         </tr>
                     </tbody>
                 </table>
