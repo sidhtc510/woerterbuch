@@ -47,8 +47,8 @@ export default function SearchBar() {
 
     return (
         <>
-            <div className=' fixed w-full bg-indigo-300 z-10 bottom-8 border border-indigo-600 md:p-5 flex items-center gap-3'>
-                <input type="text" className='w-full rounded-lg p-4 text-xxl text-indigo-900 font-bold my-3 ml-3' placeholder='Nachschlagen das Wort' value={word} onChange={handleSearch} />
+            <div className=' fixed w-full bg-indigo-300 z-10 bottom-8 md:p-2 flex items-center gap-3'>
+                <input type="text" className='w-full rounded-md p-2 text-xxl text-indigo-800 my-3 ml-3 outline-none' placeholder='Nachschlagen das Wort' value={word} onChange={handleSearch} />
 
                 <button onClick={generateStory} disabled={loading} className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">
                     {loading ? <p className="text-gray-400">Generating...</p> : (<p className="flex items-center gap-1">Generate <PiMagicWand className="text-orange-600 text-2xl" /></p>)}
