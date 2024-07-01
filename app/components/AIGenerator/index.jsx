@@ -53,7 +53,7 @@ export default function Home() {
                 {loading ? <p className=" text-gray-400">Generating...</p> : (<p className="flex items-center gap-1">Generate word <PiMagicWand className="text-orange-600 text-lg" /></p>)}
             </button>
 
-            {story && <WordModal wordObj={story} handleCloseModal={handleClose} />}
+            {story && <WordModal wordObj={story} handleCloseModal={handleClose} newWord={true} />}
         </div>
     );
 }

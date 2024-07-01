@@ -4,30 +4,33 @@ import s from './s.module.css'
 import { useRouter } from 'next/navigation';
 
 export default function WordModal({ wordObj, handleCloseModal, newWord = false }) {
-    
-    
+
+
     const router = useRouter();
     const [fetching, setFetching] = useState(false);
 
     const handleAddNewWord = async () => {
-        setFetching(true);
-        try {
-            const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/words', {
-                method: 'POST',
-                headers: { 'Content-type': 'application/json' },
-                body: JSON.stringify(wordObj)
-            })
+        if (window.confirm("Do you really want to Add word in to DB?")) {
 
-            if (!res.ok) {
-                throw new Error('no res ok')
+            setFetching(true);
+            try {
+                const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/words', {
+                    method: 'POST',
+                    headers: { 'Content-type': 'application/json' },
+                    body: JSON.stringify(wordObj)
+                })
+
+                if (!res.ok) {
+                    throw new Error('no res ok')
+                }
+                setFetching(false);
+                router.refresh();
+                router.push("/");
+                return res.json()
+
+            } catch (error) {
+                console.log('error AddWord in page', error);
             }
-            setFetching(false);
-            router.refresh();
-            router.push("/");
-            return res.json()
-
-        } catch (error) {
-            console.log('error AddWord in page', error);
         }
     }
 
@@ -67,9 +70,9 @@ export default function WordModal({ wordObj, handleCloseModal, newWord = false }
                         </tr>
                     </tbody>
                 </table>
-            {newWord && (<button onClick={handleAddNewWord} disabled={fetching} className="w-fit pointer-events-auto rounded-md bg-red-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">
-                Add Word to DB
-            </button>)}
+                {newWord && (<button onClick={handleAddNewWord} disabled={fetching} className="w-fit pointer-events-auto rounded-md bg-red-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">
+                    Add Word to DB
+                </button>)}
             </div>
         </div>
     )
