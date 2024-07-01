@@ -24,13 +24,13 @@ export default function WordModal({ wordObj, handleCloseModal, newWord = false }
                     throw new Error('no res ok')
                 }
                 setFetching(false);
-                router.refresh();
                 router.push("/");
                 return res.json()
-
+                
             } catch (error) {
                 console.log('error AddWord in page', error);
             }
+            router.refresh();
         }
     }
 
