@@ -7,7 +7,7 @@ export async function GET() {
         await connectMongoDB();
         console.log('Connected to MongoDB');
         
-        const verbs = await Verb.find().select({_id:1, verb:1, translation:1}).sort({ verb: 1 });;
+        const verbs = await Verb.find().select({_id:1, verb:1, translation:1}).sort({ verb: 1 });
         // console.log('Fetched verbs:', verbs);
 
         return NextResponse.json(verbs);
