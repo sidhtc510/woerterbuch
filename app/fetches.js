@@ -51,3 +51,26 @@ export default async function aiHandler(req) {
     // return JSON.parse(result.response.text());
     return result.response.text();
 }
+
+
+
+
+//verbs
+
+
+
+export const loadVerbs = async () => {
+    try {
+        const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/verbs', {
+            cache: 'no-store'
+        });
+        if (!res.ok) {
+            throw new Error('no res ok');
+        }
+        return res.json()
+
+    } catch (error) {
+        console.log('loadVerbs error', error);
+        return { verbs: [] };
+    }
+}
