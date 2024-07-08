@@ -2,7 +2,7 @@
 export const loadWords = async () => {
     try {
         const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/words', {
-            cache: 'default'
+            cache: 'no-cache'
         });
         if (!res.ok) {
             throw new Error('no res ok');

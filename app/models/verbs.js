@@ -60,6 +60,6 @@ const verbSchema = new Schema({
     notes: String
 });
 
-const Verb = mongoose.models.Verb || mongoose.model('Verb', verbSchema);
+const Verb = mongoose.models.verbs || mongoose.model('verbs', verbSchema);
 
 module.exports = Verb;
