@@ -1,5 +1,6 @@
 
-import { loadVerbs } from '@/app/fetches';
+// import { loadVerbs } from '@/app/fetches';
+import { loadVerbs } from '@/app/fetchVerbs';
 import Link from 'next/link';
 import React from 'react'
 
