@@ -35,7 +35,7 @@ export default async function VerbsPage() {
                 </div>
 
                 <div className="flex gap-5 flex-wrap mb-8 px-4 my-2 md:px-12">
-                    {verbs.map(({ _id, verb, translation }, index) => <Link href={_id} className='w-fit pointer-events-auto rounded-md px-3 py-2 text-[0.8125rem] font-semibold leading-5  cursor-pointer  select-none bg-indigo-300' key={index}>{verb} ({translation})</Link>)}
+                    {verbs.map(({ _id, verb, translation }, index) => <p className='w-fit pointer-events-auto rounded-md px-3 py-2 text-[0.8125rem] font-semibold leading-5  cursor-pointer  select-none bg-indigo-300' key={index}>{verb} ({translation})</p>)}
                 </div>
             {/* </div> */}
         </div>
