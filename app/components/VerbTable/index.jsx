@@ -12,9 +12,9 @@ const VerbTable = ({verbData}) => {
                             <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Present</th>
                             <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Past</th>
                             <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Future</th>
-                            <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Perfect</th>
-                            <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Pluperfect</th>
-                            <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Future Perfect</th>
+                            {/* <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Perfect</th> */}
+                            {/* <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Pluperfect</th> */}
+                            {/* <th className='text-sm pb-5 bg-indigo-700 border border-indigo-800'>Future Perfect</th> */}
                         </tr>
                     </thead>
                     <tbody className='border border-indigo-800'>
@@ -24,9 +24,9 @@ const VerbTable = ({verbData}) => {
                                 <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.present[pronoun]}</td>
                                 <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.past[pronoun]}</td>
                                 <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.future[pronoun]}</td>
-                                <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.perfect[pronoun]}</td>
-                                <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.pluperfect[pronoun]}</td>
-                                <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.future_perfect[pronoun]}</td>
+                                {/* <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.perfect[pronoun]}</td> */}
+                                {/* <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.pluperfect[pronoun]}</td> */}
+                                {/* <td className='border bg-indigo-500 border-indigo-800 p-2'>{verbData.conjugation.future_perfect[pronoun]}</td> */}
                             </tr>
                         ))}
                     </tbody>
