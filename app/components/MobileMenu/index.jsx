@@ -1,7 +1,6 @@
 "use client"
 import Link from 'next/link';
 import React, { useState } from 'react'
-// import { PiMagicWand } from "react-icons/pi";
 import { BsStars } from "react-icons/bs";
 
 export default function MobileMenu() {

@@ -1,15 +1,9 @@
 
 'use client';
-
 import { useState } from 'react';
 import WordModal from '../WordModal';
-// import { useDispatch, useSelector } from 'react-redux';
-// import wordModalSlice from '@/app/store/slice/wordModalSlice';
-// import { modalIsOpenReducer } from '@/app/store/slice/wordModalSlice';
-
 
 export default function Word({ wordObj }) {
-
     const [isModalOpen, setModalOpen] = useState(false);
 
     const handleOpenModal = () => {
@@ -20,8 +14,6 @@ export default function Word({ wordObj }) {
         setModalOpen(false);
 
     };
-
-
 
     return (
         <>

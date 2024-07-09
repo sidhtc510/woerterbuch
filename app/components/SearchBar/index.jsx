@@ -3,7 +3,6 @@ import { search } from '@/app/store/slice/wordsSlice';
 import Link from 'next/link';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { PiInfinityThin, PiMagicWand } from "react-icons/pi";
 import { BsStars } from "react-icons/bs";
 import aiHandler from '@/app/fetches';
 import WordModal from '../WordModal';
@@ -29,8 +28,7 @@ export default function SearchBar() {
     };
 
     const generateStory = async () => {
-        if (!word) { //|| word.split(" ").length > 1
-            // Display an error message or prevent the button from being clicked
+        if (!word) {
             return;
         }
         setLoading(true);
@@ -59,7 +57,7 @@ export default function SearchBar() {
                 {story && (
                     <>
                         <WordModal wordObj={story} handleCloseModal={handleClose} newWord={true} />
-                        
+
                     </>
                 )}
             </div>

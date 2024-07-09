@@ -1,5 +1,5 @@
 
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const myConsole = (data) => {
     const stateStringify = JSON.stringify(data);
@@ -11,15 +11,6 @@ const initialState = {
     originalList: {},  // Сохранение оригинального списка слов
     status: "idle"
 };
-
-// export const fetchWords = createAsyncThunk(
-//     "words/fetchWords",
-//     async () => {
-//         const resp = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/words');
-//         const data = await resp.json();
-//         console.log('data', data);
-//         return data;
-//     });
 
 const wordsSlice = createSlice({
     name: "words",
@@ -67,21 +58,7 @@ const wordsSlice = createSlice({
                 state.list = filteredList;
             }
         }
-    },
-    // extraReducers: (builder) => {
-    //     builder
-    //         .addCase(fetchWords.pending, (state) => {
-    //             state.status = "loading";
-    //         })
-    //         .addCase(fetchWords.fulfilled, (state, { payload }) => {
-    //             state.status = "ready";
-    //             state.list = payload;
-    //             state.originalList = payload;  // Сохранение оригинального списка слов
-    //         })
-    //         .addCase(fetchWords.rejected, (state) => {
-    //             state.status = "rejected";
-    //         });
-    // },
+    }
 });
 
 export const { initializinState, filterByArticle, search } = wordsSlice.actions;

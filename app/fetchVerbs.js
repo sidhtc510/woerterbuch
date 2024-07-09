@@ -1,7 +1,3 @@
-//verbs
-
-
-
 export const loadVerbs = async () => {
     try {
         const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/verbs', {

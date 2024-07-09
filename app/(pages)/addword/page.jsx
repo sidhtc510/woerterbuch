@@ -1,5 +1,4 @@
 'use client'
-import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 
@@ -15,7 +14,6 @@ export default function AddWord() {
 
         const word = formData.word.trim(); // режем пробелы
         const correctWord = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase(); //делаем первую букву большой остальные мал  
-        // const firstLetter = word[0]; // определяем первую букву слова после трима
 
         let genitiv_artikle = '-';
         let dativ_artikle = '-';
@@ -85,7 +83,6 @@ export default function AddWord() {
 
     return (
         <div>
-            {/* <Link href='/' className="w-fit pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">Main page</Link> */}
             <div className='m-3'>
                 <form className="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
                     <div className="flex flex-wrap -mx-4 mb-8">

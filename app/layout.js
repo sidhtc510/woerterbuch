@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-// import SearchBar from "./components/SearchBar";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import ReduxProvider from "./store/ReduxProvider";

@@ -20,8 +20,7 @@ export default function Home() {
     };
 
     const generateStory = async () => {
-        if (!word) { //|| word.split(" ").length > 1
-            // Display an error message or prevent the button from being clicked
+        if (!word) {
             return;
         }
         setLoading(true);
@@ -30,7 +29,7 @@ export default function Home() {
 
             const handledRes = await JSON.parse(res)
             setStory(handledRes)
-            
+
         } catch (error) {
             console.error("Error generating story:", error);
         } finally {
