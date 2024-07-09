@@ -12,7 +12,7 @@ export default function NavBar() {
                     Wörterbuch
                 </Link>
             </div>
-            <div className='flex gap-1'>
+            <div className=' hidden md:flex md:gap-1'>
                 <Link className='w-fit flex items-center gap-1 pointer-events-auto text-[0.8125rem] leading-5 cursor-pointer select-none m-3 underline' href={'/'}>Nomen</Link>
                 <Link className='w-fit flex items-center gap-1 pointer-events-auto text-[0.8125rem] leading-5 cursor-pointer select-none m-3 underline' href={'/verbs'}>Verbs</Link>
             </div>
