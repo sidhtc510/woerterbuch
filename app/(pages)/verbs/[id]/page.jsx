@@ -5,7 +5,6 @@ import React from 'react'
 
 export default async function VerbPage({ params }) {
     const verb = await loadVerb(params);
-
     return (
         <>
             <BackButton />
