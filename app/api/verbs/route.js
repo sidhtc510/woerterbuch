@@ -14,3 +14,38 @@ export async function GET() {
     }
 }
 
+export async function POST(request) {
+    // console.log("Request before handling", request);
+    try {
+        await connectMongoDB();
+
+        const data = await request.json();
+        const { verb, translation, conjugation, examples, notes } = data;
+
+        if (!verb || !translation || !conjugation || !examples || !notes) {
+            return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+        }
+
+        const newVerbObj = {
+            verb,
+            translation,
+            conjugation,
+            examples,
+            notes
+        };
+        // console.log('newVerbObj - API', newVerbObj);
+        // Найти документ по глаголу и обновить его или создать новый, если не существует
+        const result = await Verb.findOneAndUpdate(
+            { verb: newVerbObj.verb },
+            { $set: newVerbObj },
+            { new: true, upsert: true }
+        );
+
+        // console.log('RESULT - API', newVerbObj);
+        return NextResponse.json(result, { status: 201 });
+
+    } catch (error) {
+        console.error('Error saving verb:', error);
+        return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+    }
+}

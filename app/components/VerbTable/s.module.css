@@ -1,0 +1,5 @@
+.modalOverlay {
+    background-color: rgba(176, 173, 245, 0.479);
+    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

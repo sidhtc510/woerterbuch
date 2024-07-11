@@ -1,6 +1,5 @@
 'use client'
 import { search } from '@/app/store/slice/wordsSlice';
-import Link from 'next/link';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { BsStars } from "react-icons/bs";

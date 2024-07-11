@@ -1,13 +1,12 @@
-import aiHandler, { loadVerbs } from '@/app/fetchVerbs';
+import DevelopedbySid from '@/app/components/DevelopedbySid';
+import SearchBarVerb from '@/app/components/SearchBarVerb';
+import VerbsMap from '@/app/components/VerbsMap';
+import { loadVerbs } from '@/app/fetchVerbs';
 import { createAlphabet } from '@/app/helpers/functions';
-import Link from 'next/link';
-import React from 'react'
 
 export default async function VerbsPage() {
     const verbs = await loadVerbs();
     const alphabet = await createAlphabet(verbs)
-
-    // const res = await aiHandler("покупать");
 
     return (
         <div className='pb-40 bg-slate-200 min-h-[calc(100vh-96px)] '>
@@ -19,11 +18,10 @@ export default async function VerbsPage() {
                 ))}
             </div>
 
-            <div className="flex gap-5 flex-wrap mb-8 px-4 my-2 md:px-12">
-                {verbs.map(({ _id, verb, translation }, index) => <Link href={`verbs/${_id}`} className='w-fit pointer-events-auto rounded-md px-3 py-2 text-[0.8125rem] font-semibold leading-5  cursor-pointer  select-none bg-sky-400' key={index}>
-                    {verb} ({translation})
-                </Link>)}
-            </div>
+            <VerbsMap {...{ verbs }} />
+
+            <SearchBarVerb />
+            <DevelopedbySid />
         </div>
     )
 }
