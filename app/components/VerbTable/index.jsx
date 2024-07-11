@@ -35,7 +35,7 @@ const VerbTable = ({ verbData, handleCloseModal = false, newWord = "" }) => {
     }
 
     return (
-        <div className={newWord && `${s.modalOverlay} inset-0 z-20 overflow-auto flex justify-center items-center fixed w-full h-full`} onClick={newWord && handleCloseModal}>
+        <div className={newWord && `${s.modalOverlay} inset-0 z-20 overflow-auto flex justify-center items-center fixed w-full h-full`} onClick={newWord ? handleCloseModal : null}>
             <div className={newWord ? 'absolute top-0' : 'p-4'}>
                 <h1 className="text-2xl mb-4">{verbData.verb} - {verbData.translation}</h1>
                 <div className="overflow-x-auto">

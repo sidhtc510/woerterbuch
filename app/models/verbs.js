@@ -50,7 +50,7 @@ const conjugationSchema = new Schema({
         ihr: String,
         sie_Sie: String
     }
-});
+}, { _id: false });
 
 const verbSchema = new Schema({
     verb: { type: String, required: true },
@@ -58,7 +58,7 @@ const verbSchema = new Schema({
     conjugation: conjugationSchema,
     examples: [String],
     notes: String
-});
+}, { _id: true });
 
 const Verb = mongoose.models.verbs || mongoose.model('verbs', verbSchema);
 
