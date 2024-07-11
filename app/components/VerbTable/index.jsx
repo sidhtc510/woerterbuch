@@ -24,6 +24,7 @@ const VerbTable = ({ verbData, handleCloseModal = false, newWord = "" }) => {
                 }
                 setFetching(false);
                 // router.push("/");
+                router.refresh();
                 return res.json()
 
             } catch (error) {
