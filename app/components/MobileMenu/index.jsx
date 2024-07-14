@@ -1,5 +1,4 @@
 "use client"
-import Link from 'next/link';
 import React, { useState } from 'react'
 import CustomLink from '../CustomLink';
 
@@ -23,7 +22,7 @@ export default function MobileMenu() {
                 <Link href={'/ai-generator'} onClick={handleLinkClick} className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3'>AI Generator <BsStars className="text-orange-600 text-lg" /></Link> */}
 
                 <CustomLink onClick={handleLinkClick} href={'/'} className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline'>Nomen</CustomLink>
-                <CustomLink onClick={handleLinkClick} href={'/verbs'} className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline'>Verbs</CustomLink>
+                <CustomLink className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline' onClick={handleLinkClick} href={'/verbs'}>Verbs</CustomLink>
             </div>
         </div>
     )
