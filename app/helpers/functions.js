@@ -31,3 +31,11 @@ export function iterateThroughValues(obj) {
     }
     return allSingularValues;
 }
+
+export function getRandomWord(arr) {
+    if (arr.length === 0) {
+        throw new Error("Массив пустой");
+    }
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    return { word: arr[randomIndex].slice(4), wordWithArtikle: arr[randomIndex] };
+}
