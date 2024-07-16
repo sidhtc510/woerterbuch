@@ -22,7 +22,7 @@ export function iterateThroughValues(obj) {
             const values = obj[key];
             for (const value of values) {
                 if (value.singular) {
-                    allSingularValues.push(value.singular.nominativ); // Push the singular value
+                    if (value.singular.nominativ !== '-') { allSingularValues.push(value.singular.nominativ); } // Push the singular value
                 } else if (typeof value === 'object') {
                     iterateThroughValues(value); // Recursively iterate if nested object
                 }

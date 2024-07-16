@@ -13,12 +13,14 @@ export default function DerDasDieGame() {
     }, [])
 
 
-    const {status, list} = useSelector(state => state.ddd_words)
+    const { status, list } = useSelector(state => state.ddd_words)
 
 
     return (
         <div>
-            {status !== 'ready' ? <LoaderUI /> : list}
+            {status !== 'ready' ? <LoaderUI /> : 
+                 list.map(el => <p>{el}</p>) 
+            }
         </div>
     )
 }
