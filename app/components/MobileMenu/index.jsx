@@ -23,6 +23,7 @@ export default function MobileMenu() {
 
                 <CustomLink onClick={handleLinkClick} href={'/'} className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline'>Nomen</CustomLink>
                 <CustomLink className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline' onClick={handleLinkClick} href={'/verbs'}>Verbs</CustomLink>
+                <CustomLink className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline' onClick={handleLinkClick} href={'/derdasdie_game'}>DerDasDie</CustomLink>
             </div>
         </div>
     )

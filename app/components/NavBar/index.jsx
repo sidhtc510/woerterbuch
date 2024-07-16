@@ -16,6 +16,7 @@ export default function NavBar() {
             <div className=' hidden md:flex md:gap-1'>
                 <CustomLink href={'/'}>Nomen</CustomLink>
                 <CustomLink href={'/verbs'}>Verbs</CustomLink>
+                <CustomLink href={'/derdasdie_game'}>DerDasDie</CustomLink>
             </div>
             <MobileMenu />
         </div>
