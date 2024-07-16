@@ -13,3 +13,21 @@ export async function createAlphabet(verbs) {
     // Сортируем массив firstLetters в алфавитном порядке
     return alphabet.sort();
 }
+
+
+export function iterateThroughValues(obj) {
+    const allSingularValues = []
+    for (const key in obj) {
+        if (key !== '_id') { // Skip the "_id" property
+            const values = obj[key];
+            for (const value of values) {
+                if (value.singular) {
+                    allSingularValues.push(value.singular.nominativ); // Push the singular value
+                } else if (typeof value === 'object') {
+                    iterateThroughValues(value); // Recursively iterate if nested object
+                }
+            }
+        }
+    }
+    return allSingularValues;
+}

@@ -1,3 +1,4 @@
+import { iterateThroughValues } from "@/app/helpers/functions";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 // const myConsole = (data) => {
@@ -17,23 +18,6 @@ export const fetchWordsNominative = createAsyncThunk(
         const data = await resp.json();
         return data;
     });
-
-function iterateThroughValues(obj) {
-    const allSingularValues = []
-    for (const key in obj) {
-        if (key !== '_id') { // Skip the "_id" property
-            const values = obj[key];
-            for (const value of values) {
-                if (value.singular) {
-                    allSingularValues.push(value.singular.nominativ); // Push the singular value
-                } else if (typeof value === 'object') {
-                    iterateThroughValues(value); // Recursively iterate if nested object
-                }
-            }
-        }
-    }
-    return allSingularValues;
-}
 
 
 const derdasdieSlice = createSlice({
