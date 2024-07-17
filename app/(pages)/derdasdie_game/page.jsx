@@ -31,11 +31,11 @@ export default function DerDasDieGame() {
 
     const handler_derdasdie_game = (artikle) => {
         if (randomWord.wordWithArtikle.startsWith(artikle)) {
-            alert(`correct ${randomWord.wordWithArtikle}`);
+            alert(`✅ Correct "${randomWord.wordWithArtikle}"`);
             setRandomWord(getRandomWord(list));
             dispatch(addCorrect());
         } else {
-            alert(`Wrong, correct is ${randomWord.wordWithArtikle}`);
+            alert(`❌ Wrong, correct is "${randomWord.wordWithArtikle}"`);
             setRandomWord(getRandomWord(list));
             dispatch(addWrong());
         }
