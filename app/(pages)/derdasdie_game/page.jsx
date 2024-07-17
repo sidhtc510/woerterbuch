@@ -42,7 +42,7 @@ export default function DerDasDieGame() {
         dispatch(addWord(randomWord.wordWithArtikle))
     }
 
-    console.log(scoreState);
+
     return (
         <div>
             {status !== 'ready' ? <LoaderUI /> :
@@ -60,10 +60,10 @@ export default function DerDasDieGame() {
                         <p className='cursor-pointer px-4 py-6 border rounded-lg bg-red-300' onClick={() => handler_derdasdie_game('die')}>die</p>
                         <p className='cursor-pointer px-4 py-6 border rounded-lg bg-emerald-300' onClick={() => handler_derdasdie_game('das')}>das</p>
                     </div>
-                    
-                    <div className='flex flex-col gap-1  m-4 p-10 bg-green-100 border-gray-300 rounded-2xl w-fit mx-auto'>
+
+                    {!!score.list.wordsWithArtikle.length && <div className='flex flex-col gap-1  m-4 p-10 bg-green-100 border-gray-300 rounded-2xl w-fit mx-auto'>
                         {score.list.wordsWithArtikle.map((el, index) => <p key={index}>{el}</p>)}
-                    </div>
+                    </div>}
                 </>
             }
         </div>
