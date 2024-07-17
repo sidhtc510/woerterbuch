@@ -34,13 +34,13 @@ export default function DerDasDieGame() {
     }
 
     return (
-        <div>
+        <div className='pb-40 bg-slate-200 min-h-[calc(100vh-96px)] '>
             {status !== 'ready' ? <LoaderUI /> :
                 (
                     <div>
                         {status !== 'ready' ? <LoaderUI /> : (
                             <>
-                                <div className='flex justify-center gap-3 text-lg font-bold items-center m-4'>
+                                <div className='flex justify-center gap-3 text-lg font-bold items-center'>
                                     <SlLike className='text-green-600' /> {score.list.score.correct}  <SlDislike className='text-red-600' /> {score.list.score.wrong}
                                 </div>
                                 <div className='mx-auto my-4 text-4xl p-10 text-white bg-sky-400 rounded-lg flex justify-center align-middle w-fit shadow-lg'>
