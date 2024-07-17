@@ -30,7 +30,7 @@ export default function DerDasDieGame() {
         alert(isCorrect ? `✅ Correct "${randomWord.wordWithArtikle}"` : `❌ Wrong, correct is "${randomWord.wordWithArtikle}"`);
         setRandomWord(getRandomWord(list));
         dispatch(isCorrect ? addCorrect() : addWrong());
-        dispatch(addWord(randomWord.wordWithArtikle));
+        dispatch(addWord({ word: randomWord.wordWithArtikle, isCorrect: isCorrect }));
     }
 
     return (
@@ -52,8 +52,8 @@ export default function DerDasDieGame() {
                                     ))}
                                 </div>
                                 {score.list.wordsWithArtikle.length > 0 && (
-                                    <div className='flex flex-col gap-1 m-4 p-10 bg-green-100 border-gray-300 rounded-2xl w-fit mx-auto'>
-                                        {score.list.wordsWithArtikle.map((el, index) => <p key={index}>{el}</p>)}
+                                    <div className='flex flex-col gap-2 m-4 px-10 py-2 border-gray-500 rounded-2xl w-fit mx-auto'>
+                                        {score.list.wordsWithArtikle.map((el, index) => <p key={index} className={`border-b border-l rounded-sm py-1 px-2 ${el.isCorrect ? 'border-emerald-300 bg-emerald-100' : 'border-red-300 bg-red-100'}`}> {el.word}</p>)}
                                     </div>
                                 )}
                             </>

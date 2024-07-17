@@ -29,7 +29,7 @@ const derdasdie_ScoreSlice = createSlice({
             state.list.score.wrong++;
         },
         addWord(state, { payload }) {
-            state.list.wordsWithArtikle.unshift(payload)
+            state.list.wordsWithArtikle.unshift({word:payload.word, isCorrect:payload.isCorrect})
         }
     }
 });
