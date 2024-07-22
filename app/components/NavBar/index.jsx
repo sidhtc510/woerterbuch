@@ -14,10 +14,10 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className=' hidden md:flex md:gap-1'>
-                <CustomLink href={'/'}>Nomen</CustomLink>
-                <CustomLink href={'/verbs'}>Verbs</CustomLink>
-                <CustomLink href={'/derdasdie_game'}>Let`s play "Der Die Das" Game</CustomLink>
-                <a href="https://www.buymeacoffee.com/sidhtc510" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" className='h-[60px], w-[217px]' /></a>
+                <CustomLink href={'/'} className={'w-fit flex items-center gap-1 h-[60px] pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none no-underline'}>Nomen</CustomLink>
+                <CustomLink href={'/verbs'} className={'w-fit flex items-center gap-1 h-[60px] pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none no-underline'}>Verbs</CustomLink>
+                <CustomLink href={'/derdasdie_game'} className={'w-fit flex items-center gap-1 h-[60px] pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none no-underline'}>Let`s play "Der Die Das" Game</CustomLink>
+                <a href="https://www.buymeacoffee.com/sidhtc510" target="_blank" className='flex items-center'><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" className='h-[60px], w-[217px]' /></a>
             </div>
             <MobileMenu />
         </div>
