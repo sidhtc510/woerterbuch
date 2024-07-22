@@ -43,8 +43,8 @@ export default function WordsMap({ words }) {
                         <MainWord key={letter} letter={letter} words={wordsArray} />
                     )
                 ))}
-            <SearchBar />
             </div>
+            <SearchBar />
         </>
     )
 }
