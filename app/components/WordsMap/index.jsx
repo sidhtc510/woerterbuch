@@ -27,7 +27,7 @@ export default function WordsMap({ words }) {
 
     return (
         <>
-            <div className='pb-40 bg-slate-200'>
+            <div className='pb-40 bg-slate-200 h-[calc(100dvh-96px)]'>
                 <div className='alphabet_navigation bg-indigo-300 text-2xl flex gap-4 flex-wrap w-full top-0 p-4'>
                     {Object.entries(wordsRedux.list).map(([letter]) => (
                         (letter !== '_id') && (
@@ -43,8 +43,8 @@ export default function WordsMap({ words }) {
                         <MainWord key={letter} letter={letter} words={wordsArray} />
                     )
                 ))}
+            <SearchBar />
             </div>
-            {/* <SearchBar /> */}
         </>
     )
 }
