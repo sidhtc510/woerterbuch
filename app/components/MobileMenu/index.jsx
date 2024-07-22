@@ -23,7 +23,8 @@ export default function MobileMenu() {
 
                 <CustomLink onClick={handleLinkClick} href={'/'} className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline'>Nomen</CustomLink>
                 <CustomLink className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline' onClick={handleLinkClick} href={'/verbs'}>Verbs</CustomLink>
-                <CustomLink className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline' onClick={handleLinkClick} href={'/derdasdie_game'}>DerDasDie</CustomLink>
+                <CustomLink className='w-fit flex items-center gap-1 pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 no-underline' onClick={handleLinkClick} href={'/derdasdie_game'}>Let`s play "Der Die Das" Game</CustomLink>
+                <a href="https://www.buymeacoffee.com/sidhtc510" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" className='h-[60px], w-[217px]' /></a>
             </div>
         </div>
     )

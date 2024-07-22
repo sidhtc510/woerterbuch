@@ -16,7 +16,8 @@ export default function NavBar() {
             <div className=' hidden md:flex md:gap-1'>
                 <CustomLink href={'/'}>Nomen</CustomLink>
                 <CustomLink href={'/verbs'}>Verbs</CustomLink>
-                <CustomLink href={'/derdasdie_game'}>DerDasDie</CustomLink>
+                <CustomLink href={'/derdasdie_game'}>Let`s play "Der Die Das" Game</CustomLink>
+                <a href="https://www.buymeacoffee.com/sidhtc510" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" className='h-[60px], w-[217px]' /></a>
             </div>
             <MobileMenu />
         </div>

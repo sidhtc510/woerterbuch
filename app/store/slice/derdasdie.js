@@ -1,10 +1,10 @@
 import { iterateThroughValues } from "@/app/helpers/functions";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-// const myConsole = (data) => {
-//     const stateStringify = JSON.stringify(data);
-//     console.log(JSON.parse(stateStringify));
-// };
+const myConsole = (data) => {
+    const stateStringify = JSON.stringify(data);
+    console.log(JSON.parse(stateStringify));
+};
 
 const initialState = {
     list: [],

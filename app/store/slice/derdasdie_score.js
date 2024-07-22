@@ -19,9 +19,6 @@ const derdasdie_ScoreSlice = createSlice({
     name: "derdasdie_score",
     initialState,
     reducers: {
-        initializinState(state) {
-            return state;
-        },
         addCorrect(state) {
             state.list.score.correct++;
         },
@@ -29,11 +26,11 @@ const derdasdie_ScoreSlice = createSlice({
             state.list.score.wrong++;
         },
         addWord(state, { payload }) {
-            state.list.wordsWithArtikle.unshift({word:payload.word, isCorrect:payload.isCorrect})
+            state.list.wordsWithArtikle.unshift({ word: payload.word, isCorrect: payload.isCorrect })
         }
     }
 });
 
-export const { initializinState, addCorrect, addWrong, addWord } = derdasdie_ScoreSlice.actions;
+export const { addCorrect, addWrong, addWord } = derdasdie_ScoreSlice.actions;
 
 export default derdasdie_ScoreSlice.reducer;
