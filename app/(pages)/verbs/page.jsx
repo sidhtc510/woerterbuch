@@ -20,8 +20,10 @@ export default async function VerbsPage() {
 
             <VerbsMap {...{ verbs }} />
 
-            <SearchBarVerb />
-            <DevelopedbySid />
+            <div className='fixed bottom-0 w-full'>
+                <SearchBarVerb />
+                <DevelopedbySid />
+            </div>
         </div>
     )
 }
