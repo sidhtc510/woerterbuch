@@ -44,7 +44,7 @@ export default function DerDasDieGame() {
 
 
     return (
-        <div className='pb-40 bg-slate-200 min-h-[calc(100vh-96px)] '>
+        <div className='pb-40 bg-slate-200 min-h-[calc(100dvh-96px)] '>
             {status !== 'ready' ? <LoaderUI /> :
                 <div>
                     {status !== 'ready' ? <LoaderUI /> : (
