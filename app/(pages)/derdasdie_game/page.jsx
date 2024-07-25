@@ -56,8 +56,8 @@ export default function DerDasDieGame() {
                             <PiTranslateLight className='absolute top-0 right-0 p-1 text-white' />
                                 {randomWord.word}
                                 {translatedWord.isOpen &&
-                                    <div className='absolute w-[150%] h-[150%] top-0 p-2 border border-blue-600 rounded bg-slate-200 text-blue-600 text-2xl flex items-center justify-center' onClick={e => e.stopPropagation()}>
-                                        <MdClose className='absolute top-0 right-0 p-1 text-2xl cursor-pointer' onClick={(e) => { e.stopPropagation(); setTranslatedWord({ isOpen: false, wordRuAi: '' }) }} />
+                                    <div className='absolute w-full h-[150%] top-0 p-2 border rounded-md bg-white shadow-lg text-black text-2xl flex items-center justify-center' onClick={e => e.stopPropagation()}>
+                                        <MdClose className='absolute top-0 right-0 text-2xl cursor-pointer m-2' onClick={(e) => { e.stopPropagation(); setTranslatedWord({ isOpen: false, wordRuAi: '' }) }} />
                                         {translatedWord.wordRuAi}
                                     </div>
                                 }
