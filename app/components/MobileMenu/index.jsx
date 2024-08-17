@@ -25,7 +25,7 @@ export default function MobileMenu() {
                     <CustomLink className='w-full flex items-center gap-1 h-[60px] pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none no-underline' onClick={handleLinkClick} href={'/verbs'}>Verbs</CustomLink>
                     <CustomLink className='w-full flex items-center gap-1 h-[60px] pointer-events-auto rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none no-underline' onClick={handleLinkClick} href={'/derdasdie_game'}>Let`s play "Der Die Das" Game</CustomLink>
                 </div>
-                <a href="https://www.buymeacoffee.com/sidhtc510" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" className='h-[60px], w-[217px] block pb-2' /></a>
+                {/* <a href="https://www.buymeacoffee.com/sidhtc510" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" className='h-[60px], w-[217px] block pb-2' /></a> */}
             </div>
         </div>
     )
