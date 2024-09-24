@@ -16,7 +16,7 @@ export default function VerbsMap({ verbs }) {
 
     return (
         <div className="flex gap-5 flex-wrap mb-8 px-4 my-2 md:px-12">
-            {verbsRedux.list.map(({ _id, verb, translation }, index) => <Link href={`verbs/${_id}`} className='w-fit pointer-events-auto rounded-md px-3 py-2 text-[0.8125rem] font-semibold leading-5  cursor-pointer  select-none bg-sky-400' key={index}>
+            {verbsRedux.list.map(({ _id, verb, translation }, index) => <Link href={`verbs/${_id}`} className='w-fit pointer-events-auto rounded-md px-4 py-3 text-base font-semibold leading-5  cursor-pointer  select-none bg-sky-400' key={index}>
                 {verb} ({translation})
             </Link>)}
         </div>

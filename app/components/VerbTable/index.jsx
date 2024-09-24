@@ -79,7 +79,7 @@ const VerbTable = ({ verbData, handleCloseModal = false, newWord = "" }) => {
                     </div>
                 )}
 
-                {newWord && (<button onClick={handleAddNewVerb} disabled={fetching} className="w-fit pointer-events-auto rounded-md bg-red-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">
+                {newWord && (<button onClick={handleAddNewVerb} disabled={fetching} className="w-fit pointer-events-auto rounded-md bg-red-600 text-base px-4 py-3 font-semibold leading-5 text-white hover:bg-indigo-500 cursor-pointer select-none m-3 block">
                     Add Verb to DB
                 </button>)}
             </div>

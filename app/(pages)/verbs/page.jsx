@@ -11,11 +11,11 @@ export default async function VerbsPage() {
     return (
         <div className='pb-40 bg-slate-200 min-h-[calc(100dvh-96px)] '>
             <div className='alphabet_navigation bg-indigo-300 text-2xl flex gap-4 flex-wrap w-full top-0 p-4'>
-                {alphabet.map((letter, index) => (
+                {/* {alphabet.map((letter, index) => (
                     <a className='block' key={index} href={`#${letter}_ankor`}>
                         {letter}
                     </a>
-                ))}
+                ))} */}
             </div>
 
             <VerbsMap {...{ verbs }} />
