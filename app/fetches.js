@@ -59,10 +59,9 @@ export default async function aiHandler(req) {
   while (attempts < maxRetries) {
     try {
       const result = await model.generateContent(prompt);
-      const responseText = result.response.text();
+      return result.response.text();
       
-      // Пробуем распарсить JSON перед возвратом
-      return JSON.parse(responseText);
+
 
     } catch (error) {
       attempts++;
